@@ -1,0 +1,128 @@
+/*  On the subject of using a reset or not ...
+
+complicated
+
+percise
+
+*/
+
+/* NCBI Base CSS Style Guide */
+
+/* body 
+font size 62.5% so standard browsers will render 1em (16px) as 10px, for easy calculation
+line-height 1.5 without units so that value is a multiplier of font-size. using unit will calculate an absolute value, which means all font-sizes get the same size.  line-height of 1.5 is the W3C AAA recommendation for accessibility... not sure what research done there 
+
+*** NEED RESEARCH ***
+*font-size: small is hack for ie7 + ie6,
+*font: x-small is hack for ie7 + ie6 in quirks mode... not necessary for portal documents since they include a doctype, but included nonetheless. 
+*/
+body { font: 62.5%/1.5 helvetica, arial, clean, san-serif; *font-size: small; *font: x-small; }
+
+/* explore the font-sizes and the line heights */
+h1 { font-size:1.8em;}
+h2 { font-size: 1.6em;}
+h3 { font-size: 1.4em;}
+
+/* YUI considers the following should be base (13px) size. */
+h4 { } h5 { } h6 { }
+
+
+/* give these elements back their standard styles */
+h1, h2, h3, h4, h5, h6, strong { font-weight: bold; }
+
+/* don't use acronym, it's officially been deprecated in HTML 5, included for backward compatibility */
+abbr, acronym { cursor: help; border-bottom: 1px dotted #000; }
+em { font-size: italic;}
+a{ color: #009; }
+
+
+/* other */
+img { border:0; }
+input[type=text], input[type=password], textarea { /*width ~160 like YUI? */ }
+input[type=text]:focus, input[type=password]:focus, textarea:focus { border: 1px solid black; }
+
+
+
+
+
+
+/* YUI Styles from fonts.css */
+/**
+* Nudge down to get to 13px equivalent for these form elements
+*/
+select,
+input,
+button,
+textarea {
+font:99% arial,helvetica,clean,sans-serif;
+}
+ 
+/**
+* To help tables remember to inherit
+*/
+table {
+font-size:inherit;
+font:100%;
+}
+ 
+/**
+* Bump up IE to get to 13px equivalent for these fixed-width elements
+*/
+pre,
+code,
+kbd,
+samp,
+tt {
+font-family:monospace;
+*font-size:108%;
+line-height:100%;
+}
+
+
+/* YUI Styles from base.css */
+h1,h2,h3 {
+/* top & bottom margin based on font size */
+margin:1em 0;
+}
+blockquote,ul,ol,dl {
+/*giving blockquotes and lists room to breath*/
+margin:1em;
+}
+ol,ul,dl {
+/*bringing lists on to the page with breathing room */
+margin-left:2em;
+}
+ol li {
+/*giving OL's LIs generated numbers*/
+list-style: decimal outside;
+}
+ul li {
+/*giving UL's LIs generated disc markers*/
+list-style: disc outside;
+}
+dl dd {
+/*providing spacing for definition terms*/
+margin-left:1em;
+}
+th,td {
+/*borders and padding to make the table readable*/
+border:1px solid #000;
+padding:.5em;
+}
+th {
+/*distinguishing table headers from data cells*/
+font-weight:bold;
+text-align:center;
+}
+caption {
+/*coordinated margin to match cell's padding*/
+margin-bottom:.5em;
+/*centered so it doesn't blend in to other content*/
+text-align:center;
+}
+p,fieldset,table,pre {
+/*so things don't run into each other*/
+margin-bottom:1em;
+}
+/* setting a consistent width, 160px;
+control of type=file still not possible */
