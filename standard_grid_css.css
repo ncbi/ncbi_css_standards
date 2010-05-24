@@ -1,5 +1,13 @@
 body{ font: 62.5%/1.75 arial, helvetica, clean, sans-serif; }
 
+/* re-reset styles */
+h1,h2,h3,h4,h5,h6,strong{font-weight:bold;}
+em{font-style:italic;}
+abbr,acronym{cursor:help;border-bottom:1px dotted #000;}
+p,table,pre,fieldset{margin-bottom: 1.1666em;}
+ul,ol,dl,blockquote{margin:1.1666em;}
+pre,code,kbd,samp,tt {font-family:monospace;font-size:1.2286em;*font-size:1em;} /* need research to figure out both FF and IE font-sizes */
+
 /* all should be used in the context of 1.2em font-size, try to add to multiple of 21px for consistent line rhythm */
 h1{font-size: 1.5em; line-height:1.9444; } /* font-size of 18px, line-height of 35px */
 h1.seven_bigger { line-height: 2.3333; } /* line-height of 42px */
@@ -9,12 +17,14 @@ h3{font-size: 1.1666em; line-height:1.5; } /* font-size of 14px, line-height of 
 h3.seven_bigger { line-height: 2; } /* line-height of 28px */
 h4,h5,h6{font-size: 1em;} /* line-height of 21px */
 
+
+/* helpers */
 /* use in context of 1.2em font-size */
 .whole_rhythm { margin-bottom: 1.75em; } /* 21px margin */
 .twothirds_rhythm { margin-bottom: 1.1666em; } /* 14px margin */
 .onethird_rhythm { margin-bottom: .5833em; } /* 7px margin */
 
-.grid{ min-width:800px; max-width:1200px; width:100%; overflow: auto; font-size: 1.2em; } /* all get line-height of 21px */
+.grid{ min-width:800px; max-width:1200px; width:100%; font-size: 1.2em; } /* all get line-height of 21px */
 
 .col { margin-right: 1%; float: left; background-color: #eee; overflow:hidden; }
 .one_col { width: 7.3333%; }
