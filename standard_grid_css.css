@@ -1,0 +1,15 @@
+.grid{ min-width:800px; max-width:1200px; width:100%; background-color: #eee; }
+
+.col { margin-right: 1%; float: left; background-color: #eee; }
+.one_col { width: 7.333%; }
+.two_col { width: 15.666%; }
+.three_col { width: 23.999%; }
+.four_col { width: 32.333%; }
+.five_col { width: 40.666%; }
+.six_col { width: 48.999% }
+.seven_col { width: 57.333%; }
+.eight_col { width: 65.666%; }
+.nine_col { width: 73.999%; }
+.ten_col { width: 82.333%; }
+.eleven_col { width: 90.666%; }
+.twelve_col { width: 98.999%; }
