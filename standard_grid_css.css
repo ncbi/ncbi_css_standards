@@ -1,15 +1,28 @@
-.grid{ min-width:800px; max-width:1200px; width:100%; background-color: #eee; }
+body{ font: 62.5%/1.75 arial, helvetica, clean, sans-serif; }
+.half_rhythm { margin-bottom: .875em; }
+.whole_rhythm { margin-bottom: 1.75em; }
 
-.col { margin-right: 1%; float: left; background-color: #eee; }
-.one_col { width: 7.333%; }
-.two_col { width: 15.666%; }
-.three_col { width: 23.999%; }
-.four_col { width: 32.333%; }
-.five_col { width: 40.666%; }
-.six_col { width: 48.999% }
-.seven_col { width: 57.333%; }
-.eight_col { width: 65.666%; }
-.nine_col { width: 73.999%; }
-.ten_col { width: 82.333%; }
-.eleven_col { width: 90.666%; }
-.twelve_col { width: 98.999%; }
+/* all should be used in the context of 1.2em font-size, try to add to multiple of 21px for consistent line rhythm */
+h1{font-size: 1.5em; line-height:1.9444; } /* line-height of 35px */
+h1.quarter_bigger { line-height: 2.3333; } /* line-height of 42px */
+h2{font-size: 1.3333em; } /* line-height of 28px */
+h2.quarter_bigger { line-height: 2.1875; } /* line-height of 35px */
+h3{font-size: 1.1666em; line-height:1.5; } /* line-height of 21px */
+h3.quarter_bigger { line-height: 2; } /* line-height of 28px */
+h4,h5,h6{font-size: 1em;} /* line-height of 21px */
+
+.grid{ min-width:800px; max-width:1200px; width:100%; overflow: auto; font-size: 1.2em; } /* all get line-height of 21px */
+
+.col { margin-right: 1%; float: left; background-color: #eee; overflow:hidden; }
+.one_col { width: 7.3333%; }
+.two_col { width: 15.6664%; }
+.three_col { width: 23.9999%; }
+.four_col { width: 32.3333%; }
+.five_col { width: 40.6666%; }
+.six_col { width: 48.9999% }
+.seven_col { width: 57.3333%; }
+.eight_col { width: 65.6666%; }
+.nine_col { width: 73.9999%; }
+.ten_col { width: 82.3333%; }
+.eleven_col { width: 90.6666%; }
+.twelve_col { width: 98.9999%; }
