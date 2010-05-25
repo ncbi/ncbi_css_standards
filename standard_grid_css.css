@@ -1,7 +1,7 @@
 body{ font: 62.5%/1.75 arial, helvetica, clean, sans-serif; }
 
 /* re-reset styles */
-h1,h2,h3,h4,h5,h6,strong{font-weight:bold;}
+h1,h2,h3,h4,h5,h6,strong,th{font-weight:bold;}
 em{font-style:italic;}
 abbr,acronym{cursor:help;border-bottom:1px dotted #000;}
 p,table,pre,fieldset,dl{margin-bottom: 1.1666em;}
@@ -11,6 +11,11 @@ ol,ul{margin-left:2em;}
 ol li{list-style:decimal outside;}
 ul li{list-style:disc outside;}
 dl dd{margin-left:1em;}
+/*borrowed from yui*/
+th,td{border:1px solid #000;padding:.5em;}
+th{text-align:center}
+table{border-collapse:collapse}
+caption{margin-bottom:.5em;text-align:center}
 
 /* all should be used in the context of 1.2em font-size, try to add to multiple of 21px for consistent line rhythm */
 h1{font-size: 1.5em; line-height:1.9444; } /* font-size of 18px, line-height of 35px */
