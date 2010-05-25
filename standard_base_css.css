@@ -1,5 +1,41 @@
 /* typography */
-body{margin:0; padding:0; font:62.5%/1.8em arial,helvetica,sans-serif; min-width:82em;}
+body{ font: 62.5%/1.75 arial, helvetica, clean, sans-serif; }
+
+/* re-reset styles */
+h1,h2,h3,h4,h5,h6,strong,th{font-weight:bold;}
+em{font-style:italic;}
+abbr,acronym{cursor:help;border-bottom:1px dotted #000;}
+p,table,pre,fieldset,dl{margin-bottom: 1.1666em;}
+ul,ol,blockquote{margin:1.1666em 1em;}
+pre,code,kbd,samp,tt {font-family:monospace;font-size:1.2286em;*font-size:1em;} /* need research to figure out both FF and IE, especially the large-sized IE8 font-sizes */
+ol,ul{margin-left:2em;}
+ol li{list-style:decimal outside;}
+ul li{list-style:disc outside;}
+dl dd{margin-left:1em;}
+/*borrowed from yui*/
+th,td{border:1px solid #000;padding:.5em;}
+th{text-align:center}
+table{border-collapse:collapse}
+caption{margin-bottom:.5em;text-align:center}
+/*todo: inputs */
+
+/* all should be used in the context of 1.2em font-size, try to add to multiple of 21px for consistent line rhythm */
+h1{font-size: 1.5em; line-height:1.9444; } /* font-size of 18px, line-height of 35px */
+h1.seven_bigger { line-height: 2.3333; } /* line-height of 42px */
+h2{font-size: 1.3333em; } /* font-size of 16px, line-height of 28px */
+h2.seven_bigger { line-height: 2.1875; } /* line-height of 35px */
+h3{font-size: 1.1666em; line-height:1.5; } /* font-size of 14px, line-height of 21px */
+h3.seven_bigger { line-height: 2; } /* line-height of 28px */
+h4,h5,h6{font-size: 1em;} /* line-height of 21px */
+
+
+/* helpers */
+/* use in context of 1.2em font-size */
+.whole_rhythm { margin-bottom: 1.75em; } /* 21px margin */
+.twothirds_rhythm { margin-bottom: 1.1666em; } /* 14px margin */
+.onethird_rhythm { margin-bottom: .5833em; } /* 7px margin */
+
+/* old, to be reconciled
 h1{font-size: 1.5em; line-height: 1.1em;}
 h2{font-size: 1.8em;}
 h3, .header .inline_list li a{font-size: 1.4em;}
@@ -8,8 +44,8 @@ h5{font-size: 1.1em;}
 h6{font-size: 0.9em;}
 h4.content_header{font-size: 1em;}
 
-/* font-weight */
 h1.title, h4.content_header {font-weight: normal; }
+*/
 
 /*general*/
 img{border:0}
