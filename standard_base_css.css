@@ -19,7 +19,10 @@ table{border-collapse:collapse}
 caption{margin-bottom:.5em;text-align:center}
 /*todo: inputs */
 
-/* all should be used in the context of 1.2em font-size, try to add to multiple of 21px for consistent line rhythm */
+
+/* header typography */
+/* all should be used in the context of 1.2em font-size, try to add to multiple of 21px for consistent vertical rhythm */
+/* may be changed to have asymmertical margins on top & bottom */
 h1{font-size: 1.5em; line-height:1.9444; } /* font-size of 18px, line-height of 35px */
 h1.seven_bigger { line-height: 2.3333; } /* line-height of 42px */
 h2{font-size: 1.3333em; } /* font-size of 16px, line-height of 28px */
@@ -29,23 +32,14 @@ h3.seven_bigger { line-height: 2; } /* line-height of 28px */
 h4,h5,h6{font-size: 1em;} /* line-height of 21px */
 
 
-/* helpers */
+/* typography helpers */
 /* use in context of 1.2em font-size */
 .whole_rhythm { margin-bottom: 1.75em; } /* 21px margin */
 .twothirds_rhythm { margin-bottom: 1.1666em; } /* 14px margin */
 .onethird_rhythm { margin-bottom: .5833em; } /* 7px margin */
 
-/* old, to be reconciled
-h1{font-size: 1.5em; line-height: 1.1em;}
-h2{font-size: 1.8em;}
-h3, .header .inline_list li a{font-size: 1.4em;}
-h4, .container, .supplemental{font-size: 1.2em;}
-h5{font-size: 1.1em;}
-h6{font-size: 0.9em;}
-h4.content_header{font-size: 1em;}
+/* need callout-y pullquote-y rules and rules for images and captions, etc as well */
 
-h1.title, h4.content_header {font-weight: normal; }
-*/
 
 /*general*/
 img{border:0}
@@ -61,6 +55,20 @@ img{border:0}
 .hidden{display:none}
 .nowrap{white-space:nowrap}
 .noborder{border:0}
+
+/* old, to be reconciled
+h1{font-size: 1.5em; line-height: 1.1em;}
+h2{font-size: 1.8em;}
+h3, .header .inline_list li a{font-size: 1.4em;}
+h4, .container, .supplemental{font-size: 1.2em;}
+h5{font-size: 1.1em;}
+h6{font-size: 0.9em;}
+h4.content_header{font-size: 1em;}
+
+h1.title, h4.content_header {font-weight: normal; }
+*/
+
+
 
 /*msg*/
 .app_msg{background-color: #fff;  padding-bottom: 1em; margin-bottom: 1em;}
