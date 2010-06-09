@@ -1,4 +1,4 @@
-.grid{ min-width:800px; max-width:1200px; width:100%; font-size: 1.2em; clear:both; } /* all get line-height of 21px */
+.grid{ min-width:800px; max-width:1200px; width:100%; font-size: 1.3em; clear:both; } /* all get line-height of 21px */
 
 .col { margin-right: 1%; float: left; background-color: #eee; overflow:hidden; }
 .last { *zoom:1; _margin-right:-6px; }
