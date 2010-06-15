@@ -27,6 +27,7 @@ h1{font-size: 1.3846em; line-height:1.5; margin:.5em 0;} /* font-size of 18px, l
 h2{font-size: 1.2307em; line-height:1.125; margin:.5625em 0;} /* font-size of 16px, line-height of 18px */
 h3{font-size: 1.0769em; line-height:1.2857; margin:.6428em 0; } /* font-size of 14px, line-height of 18px */
 h4,h5,h6{font-size: 1em; margin:.6923em 0;} /* line-height of 18px */
+h5{font-style:italic;font-weight:normal;}
 
 
 /* typography helpers */
@@ -52,9 +53,13 @@ img{border:0}
 .nowrap{white-space:nowrap}
 .noborder{border:0}
 
-.small-caps{font-variant:small-caps;}
+
+.uppercase{text-transform: uppercase;letter-spacing:.06em;}
+.caps{text-transform:capitalize;}
+.small-caps{font-variant:small-caps;letter-spacing:.02em;}
 .overline{text-decoration:overline;}
-sup,sub{font-size:.8461em;}
+.roman{font-style:none}
+sup,sub{font-size:.8461em;} /*10px font-size */
 sup{vertical-align:super;}
 sub{vertical-align:sub;}
 
