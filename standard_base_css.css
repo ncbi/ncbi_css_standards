@@ -5,8 +5,8 @@ body{ font: 62.5%/1.3846 arial, helvetica, clean, sans-serif; }
 h1,h2,h3,h4,h5,h6,strong,th{font-weight:bold;}
 em{font-style:italic;}
 abbr,acronym{cursor:help;border-bottom:1px dotted #000;}
-p,table,pre,fieldset,dl{margin-bottom: .75em;}
-ul,ol,blockquote{margin:.75em 1em;}
+p,table,pre,fieldset,dl{margin: .6923em 0;}
+ul,ol,blockquote{margin:.6923em 1em;}
 pre,code,kbd,samp,tt {font-family:monospace;font-size:1.2286em;*font-size:1em;} /* need research to figure out both FF and IE, especially the large-sized IE8 font-sizes */
 ol,ul{margin-left:2em;}
 ol li{list-style:decimal outside;}
@@ -21,18 +21,18 @@ caption{margin-bottom:.5em;text-align:center}
 
 
 /* header typography */
-/* all should be used in the context of 1.2em font-size, try to add to multiple of 21px for consistent vertical rhythm */
+/* all should be used in the context of 1.3em font-size, try to add to multiple of 18px for consistent vertical rhythm */
 /* may be changed to have asymmertical margins on top & bottom */
-h1{font-size: 1.3846em; line-height:1.5; margin:.5em 0;} /* font-size of 18px, line-height of 35px */
+h1{font-size: 1.3846em; line-height:1.5; margin:.5em 0;} /* font-size of 18px, line-height of 27px */
 h2{font-size: 1.2307em; line-height:1.125; margin:.5625em 0;} /* font-size of 16px, line-height of 18px */
 h3{font-size: 1.0769em; line-height:1.2857; margin:.6428em 0; } /* font-size of 14px, line-height of 18px */
-h4,h5,h6{font-size: 1em;} /* line-height of 18px */
+h4,h5,h6{font-size: 1em; margin:.6923em 0;} /* line-height of 18px */
 
 
 /* typography helpers */
 /* use in context of 1.2em font-size */
-.whole_rhythm { margin-bottom: 1.5em; } /* 18px margin */
-.half_rhythm { margin-bottom: .75em; } /* 9px margin */
+.whole_rhythm { margin-bottom: 1.3846em; } /* 18px margin */
+.half_rhythm { margin-bottom: .6923em; } /* 9px margin */
 
 /* need callout-y pullquote-y rules and rules for images and captions, etc as well */
 
@@ -69,13 +69,4 @@ h4.content_header{font-size: 1em;}
 
 h1.title, h4.content_header {font-weight: normal; }
 */
-
-
-
-/*msg*/
-.app_msg{background-color: #fff;  padding-bottom: 1em; margin-bottom: 1em;}
-.app_msg p{margin: .1em 0;}
-.app_msg_controls{text-align:right;}
-.app_msg_controls a{font-size: 0.9em;}
-
 
