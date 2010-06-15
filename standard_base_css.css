@@ -52,6 +52,12 @@ img{border:0}
 .nowrap{white-space:nowrap}
 .noborder{border:0}
 
+.small-caps{font-variant:small-caps;}
+.overline{text-decoration:overline;}
+sup,sub{font-size:.8461em;}
+sup{vertical-align:super;}
+sub{vertical-align:sub;}
+
 /* old, to be reconciled
 h1{font-size: 1.5em; line-height: 1.1em;}
 h2{font-size: 1.8em;}
