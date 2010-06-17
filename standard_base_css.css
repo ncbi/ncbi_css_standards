@@ -1,8 +1,8 @@
 /* typography */
 body{ font: 62.5%/1.3846 arial, helvetica, clean, sans-serif; }
 
-/* re-reset styles */
-h1,h2,h3,h4,h5,h6,strong,th{font-weight:bold;}
+/* re-reset styles when applicable*/
+h1,h2,h3,h4,h5,strong,th{font-weight:bold;}
 em{font-style:italic;}
 abbr,acronym{cursor:help;border-bottom:1px dotted #000;}
 p,table,pre,fieldset,dl{margin: .6923em 0;}
@@ -28,6 +28,7 @@ h2{font-size: 1.2307em; line-height:1.125; margin:.5625em 0;} /* font-size of 16
 h3{font-size: 1.0769em; line-height:1.2857; margin:.6428em 0; } /* font-size of 14px, line-height of 18px */
 h4,h5,h6{font-size: 1em; margin:.6923em 0;} /* line-height of 18px */
 h5{font-style:italic;font-weight:normal;}
+
 
 
 /* typography helpers */
@@ -59,9 +60,10 @@ img{border:0}
 .small-caps{font-variant:small-caps;letter-spacing:.02em;}
 .overline{text-decoration:overline;}
 .roman{font-style:none}
-sup,sub{font-size:.8461em;} /*10px font-size */
+.small,sup,sub{font-size:.8461em;} /*11px font-size */
 sup{vertical-align:super;}
 sub{vertical-align:sub;}
+
 
 /* old, to be reconciled
 h1{font-size: 1.5em; line-height: 1.1em;}
