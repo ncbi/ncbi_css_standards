@@ -21,7 +21,7 @@ caption{margin-bottom:.5em;text-align:center}
 
 
 /* header typography */
-/* all should be used in the context of 1.3em font-size, try to add to multiple of 18px for consistent vertical rhythm */
+/* all should be used in the context of 13px font-size, try to add to multiple of 18px for consistent vertical rhythm */
 /* may be changed to have asymmertical margins on top & bottom */
 h1{font-size: 1.3846em; line-height:1.5; margin:.5em 0;} /* font-size of 18px, line-height of 27px */
 h2{font-size: 1.2307em; line-height:1.125; margin:.5625em 0;} /* font-size of 16px, line-height of 18px */
@@ -32,7 +32,7 @@ h5{font-style:italic;font-weight:normal;}
 
 
 /* typography helpers */
-/* use in context of 1.2em font-size */
+/* use in context of 13px font-size */
 .whole_rhythm { margin-bottom: 1.3846em; } /* 18px margin */
 .half_rhythm { margin-bottom: .6923em; } /* 9px margin */
 
