@@ -30,7 +30,7 @@ h4,h5,h6,h3.inline{font-size: 1em; margin:1.3846em 0 .6923em; } /* line-height o
 h5{font-style:italic;font-weight:normal;}
 
 /*InlineHeaders*/
-h3.inline,h4.inline,h5.inline,h6.inline{display:inline;float:left;margin:0;}
+h3.inline,h4.inline,h5.inline,h6.inline{display:inline;float:left;margin:0;padding-right:.3em;}
 
 /* typography helpers */
 /* use in context of 13px font-size */
