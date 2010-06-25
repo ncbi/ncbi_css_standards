@@ -18,8 +18,9 @@ th,td{border:1px solid #000;padding:.5em;}
 th{text-align:center}
 table{border-collapse:collapse}
 caption{margin-bottom:.5em;text-align:center}
-/*todo: inputs */
 
+/*todo: inputs */
+button{cursor:pointer}
 
 /* header typography */
 /* all should be used in the context of 13px font-size, try to add to multiple of 18px for consistent vertical rhythm */
@@ -31,17 +32,18 @@ h5{font-style:italic;font-weight:normal;}
 
 
 
-h1::after,h2::after,h3::after,h4::after,h5::after,h6::after{content:""; display:block;font-size:3px;}
+h1::after,h2::after,h3::after,h4::after,h5::after,h6::after{/*content:""; display:block;font-size:3px;*/}
 h1::after,h2::after,h3::after,h4::after,h5::after,h6::after{/*margin:-1em;*/}
+h3.inline::after,h4.inline::after,h5.inline::after,h6.inline::after{/*content:none;*/}
 
 /*InlineHeaders*/
 h3.inline,h4.inline,h5.inline,h6.inline{display:inline;float:left;margin:0;padding-right:.3em;}
-h3.inline::after,h4.inline::after,h5.inline::after,h6.inline::after{content:none;}
+
 
 /* typography helpers */
 /* use in context of 13px font-size */
-.whole_rhythm { margin-bottom: 1.3846em; } /* 18px margin */
-.half_rhythm { margin-bottom: .6923em; } /* 9px margin */
+.whole_rhythm { margin: 1.3846em 0; } /* 18px margin */
+.half_rhythm { margin: .6923em 0; } /* 9px margin */
 
 /* proposed link colors */
 .content a{color:#2a5580;border-bottom:1px solid #a6a6a6;text-decoration:none;}
