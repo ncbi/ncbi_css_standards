@@ -8,7 +8,7 @@ abbr,acronym{cursor:help;border-bottom:1px dotted #000;}
 p,table,pre,fieldset,dl{margin: .6923em 0;}
 ul,ol{margin:.6923em 1em;}
 blockquote{margin:1.3846em 1em;}
-pre,code,kbd,samp,tt {font-family:monospace;font-size:1.2286em;*font-size:1em;} /* need research to figure out both FF and IE, especially the large-sized IE8 font-sizes */
+pre,code,kbd,samp,tt {font-family:monospace;font-size:1.2296em;*font-size:1em;} /* need research to figure out both FF and IE, especially the large-sized IE8 font-sizes */
 ol,ul{margin-left:2em;}
 ol li{list-style:decimal outside;}
 ul li{list-style:disc outside;}
@@ -29,8 +29,14 @@ h3{font-size: 1.0769em; line-height:1.2857; margin:1.2856em 0 .6428em; } /* font
 h4,h5,h6,h3.inline{font-size: 1em; margin:1.3846em 0 .6923em; } /* line-height of 18px */
 h5{font-style:italic;font-weight:normal;}
 
+
+
+h1::after,h2::after,h3::after,h4::after,h5::after,h6::after{content:""; display:block;font-size:3px;}
+h1::after,h2::after,h3::after,h4::after,h5::after,h6::after{/*margin:-1em;*/}
+
 /*InlineHeaders*/
 h3.inline,h4.inline,h5.inline,h6.inline{display:inline;float:left;margin:0;padding-right:.3em;}
+h3.inline::after,h4.inline::after,h5.inline::after,h6.inline::after{content:none;}
 
 /* typography helpers */
 /* use in context of 13px font-size */
@@ -68,6 +74,7 @@ img{border:0}
 .overline{text-decoration:overline;}
 .roman{font-style:none}
 .small,sup,sub{font-size:.8461em;} /*11px font-size */
+.small{line-height:1.6363em}
 sup{vertical-align:super;}
 sub{vertical-align:sub;}
 
