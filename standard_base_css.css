@@ -1,6 +1,9 @@
 /* typography */
 body{ font: 62.5%/1.3846 arial, helvetica, clean, sans-serif; }
 
+/* what to do about content? */
+.grid{font-size: 1.3em}
+
 /* re-reset styles when applicable*/
 h1,h2,h3,h4,h5,strong,th{font-weight:bold;}
 em{font-style:italic;}
@@ -30,6 +33,21 @@ h3{font-size: 1.0769em; line-height:1.2857; margin:1.2856em 0 .6428em; } /* font
 h4,h5,h6,h3.inline{font-size: 1em; margin:1.3846em 0 .6923em; } /* line-height of 18px */
 h5{font-style:italic;font-weight:normal;}
 
+h6{color:#985735;}
+h5{color:#985735;}
+h4{color:#985735;}
+h3{color:#724128;}
+h2{color:#59331f;}
+h1{color:#000;}
+
+/*h6{color:#985735;}
+h5{color:#724128;}
+h4{color:#5a341f;}
+h3{color:#472819;}
+h2{color:#2e1a10;}
+h1{color:#170e08;}*/
+
+
 
 
 h1::after,h2::after,h3::after,h4::after,h5::after,h6::after{/*content:""; display:block;font-size:3px;*/}
@@ -46,9 +64,9 @@ h3.inline,h4.inline,h5.inline,h6.inline{display:inline;float:left;margin:0;paddi
 .half_rhythm { margin: .6923em 0; } /* 9px margin */
 
 /* proposed link colors */
-.content a{color:#2a5580;border-bottom:1px solid #a6a6a6;text-decoration:none;}
+.content a{color:#2c4c9f;border-bottom:1px solid #a6a6a6;text-decoration:none;}
 .content a:hover,.content a:active{color:#985735;border-bottom:1px solid #985735;}
-.content a:visited{color:#645f7f;border-bottom:1px solid #a6a6a6;}
+.content a:visited{color:#423183;border-bottom:1px solid #a6a6a6;}
 
 
 /* need callout-y pullquote-y rules and rules for images and captions, etc as well */
