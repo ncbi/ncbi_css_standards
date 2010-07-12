@@ -13,8 +13,8 @@ ul,ol{margin:.6923em 1em;}
 blockquote{margin:1.3846em 1em;}
 pre,code,kbd,samp,tt {font-family:monospace;font-size:1.2296em;*font-size:1em;} /* need research to figure out both FF and IE, especially the large-sized IE8 font-sizes */
 ol,ul{margin-left:2em;}
-ol li{list-style:decimal outside;}
-ul li{list-style:disc outside;}
+ol{list-style:decimal outside;}
+ul{list-style:disc outside;}
 dl dd{margin-left:1em;}
 /*borrowed from yui*/
 th,td{border:1px solid #000;padding:.5em;}
@@ -88,26 +88,7 @@ img{border:0}
 .noborder{border:0}
 
 
-.uppercase{text-transform: uppercase;letter-spacing:.06em;}
-.caps{text-transform:capitalize;}
-.small-caps{font-variant:small-caps;letter-spacing:.02em;}
-.overline{text-decoration:overline;}
-.roman{font-style:none}
 .small,sup,sub{font-size:.8461em;} /*11px font-size */
 .small{line-height:1.6363em}
 sup{vertical-align:super;}
 sub{vertical-align:sub;}
-
-
-/* old, to be reconciled
-h1{font-size: 1.5em; line-height: 1.1em;}
-h2{font-size: 1.8em;}
-h3, .header .inline_list li a{font-size: 1.4em;}
-h4, .container, .supplemental{font-size: 1.2em;}
-h5{font-size: 1.1em;}
-h6{font-size: 0.9em;}
-h4.content_header{font-size: 1em;}
-
-h1.title, h4.content_header {font-weight: normal; }
-*/
-

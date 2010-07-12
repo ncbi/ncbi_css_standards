@@ -1,0 +1,17 @@
+/*  optional standard helpers (pmc,books,pmhealth use) */
+.uppercase{text-transform: uppercase;letter-spacing:.06em;}
+.caps{text-transform:capitalize;}
+.small-caps{font-variant:small-caps;letter-spacing:.02em;}
+.overline{text-decoration:overline;}
+.roman{font-style:none}
+
+
+/*list-style-types*/
+.lower-alpha{list-style-type:lower-alpha}
+.upper-alpha{list-style-type:upper-alpha}
+.lower-roman{list-style-type:lower-roman}
+.upper-roman{list-style-type:upper-roman}
+.simple-list{list-style-type:none;}
+
+/*labels in headings*/
+.label{margin-right:1em;}
