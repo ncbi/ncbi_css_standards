@@ -66,7 +66,7 @@ h3.inline,h4.inline,h5.inline,h6.inline{display:inline;float:left;margin:0;paddi
 /* proposed link colors */
 .content a{color:#2c4c9f;border-bottom:1px solid #a6a6a6;text-decoration:none;}
 .content a:hover,.content a:active{color:#985735;border-bottom:1px solid #985735;}
-.content a:visited{color:#423183;border-bottom:1px solid #a6a6a6;}
+.content a:visited{color:#642a8f;border-bottom:1px solid #a6a6a6;}
 
 
 /* need callout-y pullquote-y rules and rules for images and captions, etc as well */
