@@ -17,5 +17,10 @@
 .first-line-outdent{list-style-type:none}
 .first-line-outdent li:first-letter{margin-left:-1.5em}
 
+.labeled-list{}
+.labeled-list dt{float:left;margin-right:1em}
+.labeled-list dd{vertical-align:top;display:table-cell}
+.labeled-list dd p:first-child{margin-top:0;}
+
 /*labels in headings*/
 .label{margin-right:1em;}
