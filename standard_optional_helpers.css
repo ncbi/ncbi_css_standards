@@ -13,7 +13,8 @@
 .upper-roman{list-style-type:upper-roman}
 .circle{list-style-type:circle}
 .square{list-style-type:square}
-.simple-list{list-style-type:none;}
+.simple-list{list-style-type:none}
+.first-line-outdent{list-style-type:none}
 .first-line-outdent li:first-letter{margin-left:-1.5em}
 
 /*labels in headings*/
