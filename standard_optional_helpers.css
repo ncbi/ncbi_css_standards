@@ -11,7 +11,10 @@
 .upper-alpha{list-style-type:upper-alpha}
 .lower-roman{list-style-type:lower-roman}
 .upper-roman{list-style-type:upper-roman}
+.circle{list-style-type:circle}
+.square{list-style-type:square}
 .simple-list{list-style-type:none;}
+.first-line-outdent li:first-letter{margin-left:-1.5em}
 
 /*labels in headings*/
 .label{margin-right:1em;}
