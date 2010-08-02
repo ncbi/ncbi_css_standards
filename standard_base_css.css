@@ -62,6 +62,7 @@ h3.inline,h4.inline,h5.inline,h6.inline{display:inline;float:left;margin:0;paddi
 /* use in context of 13px font-size */
 .whole_rhythm { margin: 1.3846em 0; } /* 18px margin */
 .half_rhythm { margin: .6923em 0; } /* 9px margin */
+.no_top_margin{margin-top:0;}
 
 /* proposed link colors */
 .content a{color:#2c4c9f;border-bottom:1px solid #a6a6a6;text-decoration:none;}
@@ -89,6 +90,7 @@ img{border:0}
 
 
 .small,sup,sub{font-size:.8461em;} /*11px font-size */
+.smapp sup,.small sub{font-size:1em}
 .small{line-height:1.6363em}
 sup{vertical-align:super;}
 sub{vertical-align:sub;}

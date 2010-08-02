@@ -1,8 +1,8 @@
 /*  optional standard helpers (pmc,books,pmhealth use) */
-.uppercase{text-transform: uppercase;letter-spacing:.06em;}
-.caps{text-transform:capitalize;}
-.small-caps{font-variant:small-caps;letter-spacing:.02em;}
-.overline{text-decoration:overline;}
+.uppercase{text-transform: uppercase;letter-spacing:.06em}
+.caps{text-transform:capitalize}
+.small-caps{font-variant:small-caps;letter-spacing:.02em}
+.overline{text-decoration:overline}
 .roman{font-style:none}
 
 
@@ -21,7 +21,12 @@
 .labeled-list{}
 .labeled-list dt{float:left;margin-right:.8em}
 .labeled-list dd{vertical-align:top;display:table-cell}
-.labeled-list dd p:first-child{margin-top:0}
 
 /*labels in headings*/
 .label{margin-right:1em;}
+
+/*metadata*/
+.subtitle,.alt-title{font-weight:bold}
+
+/*definition-style links*/
+.def{cursor:help}
