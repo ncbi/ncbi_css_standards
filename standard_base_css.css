@@ -75,8 +75,9 @@ h3.inline,h4.inline,h5.inline,h6.inline{display:inline;float:left;margin:0;paddi
 
 /*general*/
 img{border:0}
-.inline_list{list-style-type:none;margin:0;padding:0}
-.inline_list li{display:inline;margin-right:.2em}
+.inline_list,.inline_list_right{list-style-type:none;margin:0;padding:0}
+.inline_list li{display:inline;margin-right:.3em}     /* needs to be a standard distance here and the next. */
+.inline_list_right li{display:inline;margin-left:.4em;}
 .column_list{list-style-type:none;margin:0;padding:0}
 .column_list li{float:left;width:8em}
 .offscreen{text-indent:-9999px}
@@ -87,6 +88,7 @@ img{border:0}
 .hidden{display:none}
 .nowrap{white-space:nowrap}
 .noborder{border:0}
+.inline_block{display:-moz-inline-box;display:inline-block;*display:inline;zoom:1;}
 
 
 .small,sup,sub{font-size:.8461em;} /*11px font-size */
