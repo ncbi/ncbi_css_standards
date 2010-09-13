@@ -16,8 +16,10 @@ ol,ul{margin-left:2.5em;}
 ol{list-style:decimal outside;}
 ul{list-style:disc outside;}
 dl dd{margin-left:1em;}
-th,td{border:1px solid #eee;padding:.3em;}
+th,td{padding:.2em;}
 th{text-align:center}
+thead{border-bottom:1px solid #eee}
+tfoot{border-top:1px solid #eee}
 table{border-collapse:collapse}
 caption{margin-bottom:.5em;text-align:center}
 
@@ -31,13 +33,6 @@ h2{font-size: 1.2307em; line-height:1.125; margin:1.125em 0 .5625em;} /* font-si
 h3{font-size: 1.0769em; line-height:1.2857; margin:1.2856em 0 .6428em; } /* font-size of 14px, line-height of 18px */
 h4,h5,h6,h3.inline{font-size: 1em; margin:1.3846em 0 .6923em; } /* line-height of 18px */
 h5{font-style:italic;font-weight:normal;}
-
-/*h6{color:#985735;}
-h5{color:#985735;}
-h4{color:#985735;}
-h3{color:#724128;}
-h2{color:#59331f;}
-h1{color:#000;}*/
 
 /*h6{color:#985735;}
 h5{color:#724128;}*/
@@ -59,9 +54,10 @@ h3.inline,h4.inline,h5.inline,h6.inline{display:inline;float:left;margin:0;paddi
 
 /* typography helpers */
 /* use in context of 13px font-size */
-.whole_rhythm { margin: 1.3846em 0; } /* 18px margin */
-.half_rhythm { margin: .6923em 0; } /* 9px margin */
-.no_top_margin{margin-top:0;}
+.whole_rhythm {margin: 1.3846em 0} /* 18px margin */
+.half_rhythm {margin: .6923em 0} /* 9px margin */
+.no_top_margin{margin-top:0}
+.no_bottom_margin{margin-bottom:0}
 
 /* proposed link colors */
 .content a{color:#2c4c9f;border-bottom:1px solid #a6a6a6;text-decoration:none;}
@@ -88,10 +84,16 @@ img{border:0}
 .nowrap{white-space:nowrap}
 .noborder{border:0}
 .inline_block{display:-moz-inline-box;display:inline-block;*display:inline;zoom:1;}
+.clearfix{display:block;zoom:1}
+.clearfix::after{clear:both;content:'.';display:block;font-size:0px;height:0px;line-height:0;visibility:hidden}
 
+/*icon blocks*/
+.icnblk_img{text-decoration:none;float:left;margin-right:1em;cursor:pointer}
+.icnblk_cntnt{display:table-cell;vertical-align:top}
+.icnblk_cntnt h4{margin:0 0 .6923em}
 
 .small,sup,sub{font-size:.8461em;} /*11px font-size */
-.smapp sup,.small sub{font-size:1em}
+.small sup,.small sub{font-size:1em}
 .small{line-height:1.6363em}
 sup{vertical-align:super;}
 sub{vertical-align:sub;}
