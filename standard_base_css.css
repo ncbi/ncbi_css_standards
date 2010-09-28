@@ -1,7 +1,5 @@
 /* typography */
-body{ font: 62.5%/1.3846 arial, helvetica, clean, sans-serif; }
-
-/* what to do about content? */
+body{ font: 62.5%/1.3846 arial, helvetica, clean, sans-serif}
 .grid{font-size: 1.3em}
 
 /* re-reset styles when applicable*/
@@ -88,6 +86,7 @@ img{border:0}
 .clearfix::after{clear:both;content:'.';display:block;font-size:0px;height:0px;line-height:0;visibility:hidden}
 
 /*icon blocks*/
+.iconblock{overflow:auto}
 .icnblk_img{text-decoration:none;float:left;margin-right:1em;cursor:pointer}
 .icnblk_cntnt{display:table-cell;vertical-align:top}
 .icnblk_cntnt h4{margin:0 0 .6923em}

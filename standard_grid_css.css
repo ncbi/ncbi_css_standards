@@ -1,6 +1,4 @@
-/* no need (yet) for unmatching column witdhs, so I'll keep this simple and just use a base of 12 */
-
-.grid{ min-width:800px; max-width:1200px; width:100%; clear:both; }
+.grid{ min-width:800px; max-width:1200px; width:100%; clear:both; margin:0 auto; text-align:left }
 
 .col { margin-right: 1%; float: left; background-color: #eee; overflow:hidden; }
 .last { *zoom:1; _margin-right:-6px; }
