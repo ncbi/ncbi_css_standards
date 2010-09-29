@@ -88,8 +88,8 @@ img{border:0}
 /*icon blocks*/
 .iconblock{overflow:auto}
 .icnblk_img{text-decoration:none;float:left;margin-right:1em;cursor:pointer}
-.icnblk_cntnt{display:table-cell;vertical-align:top}
-.icnblk_cntnt h4{margin:0 0 .6923em}
+.icnblk_cntnt{display:table-cell;vertical-align:top;*zoom:1}
+.icnblk_cntnt h1,.icnblk_cntnt h2,.icnblk_cntnt h3,.icnblk_cntnt h4{margin:0 0 .6923em}
 
 .small,sup,sub{font-size:.8461em;} /*11px font-size */
 .small sup,.small sub{font-size:1em}
