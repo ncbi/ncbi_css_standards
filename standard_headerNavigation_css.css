@@ -1,5 +1,4 @@
 .hnav{overflow:visible;margin-bottom:1em}
 .hnav .goto{width:100%;border-top:2px solid #97B0C8;padding-top:.3em;height:1.3846em}
-.hnav ul.links{margin:0}
-.hnav .links{float:right;margin:-1.35em 0 0;list-style-type:none}
+.hnav .links{float:right;margin:0;*margin:-1.35em 0 0;list-style-type:none}
 .hnav a,.hnav a:visited{border-bottom:0}
