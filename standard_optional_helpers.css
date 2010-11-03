@@ -39,8 +39,7 @@
 .figure{margin: 1.3846em 0}
 
 /*metadata*/
-.subtitle,.alt-title{font-weight:bold}
-.alt-title{margin-top:-.5em}
+.subtitle{font-weight:bold;margin-top:-.5em}
 
 /*definition-style links*/
 .def{cursor:help}
