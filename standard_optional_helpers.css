@@ -21,7 +21,7 @@
 /*left-leaning blocks (do I need this?)*/
 .labeled-list{}
 .labeled-list dt{float:left;margin-right:.8em}
-.labeled-list dd{vertical-align:top;display:table-cell}
+.labeled-list dd{vertical-align:top;display:table-cell;*display:inline-block}
 
 /*icon blocks*/
 .iconblock{overflow:hidden}
@@ -43,4 +43,3 @@
 
 /*definition-style links*/
 .def{cursor:help}
-
