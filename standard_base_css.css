@@ -56,6 +56,7 @@ h3.inline,h4.inline,h5.inline,h6.inline{display:inline;float:left;margin:0;paddi
 .half_rhythm {margin: .6923em 0} /* 9px margin */
 .no_top_margin{margin-top:0}
 .no_bottom_margin{margin-bottom:0}
+.no_margin{margin:0}
 
 /* proposed link colors */
 .content a{color:#2f4a8b;border-bottom:1px solid #ddd;text-decoration:none;}
