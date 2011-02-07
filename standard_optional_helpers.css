@@ -43,3 +43,11 @@
 
 /*definition-style links*/
 .def{cursor:help}
+
+/*warning indicator*/
+.box.warn {border:1px solid #000;margin:42px 0 45px 0;padding:0 0 35px 0;}
+.box.warn h3 {background-color:#f7d118;border-bottom:1px solid #000;height:21px;margin: 0 0 35px;padding-top:2px;text-align:center;}
+.box.warn p {padding: 0 35px 0 35px;}	
+.box.warn * {color: #000;}
+
+
