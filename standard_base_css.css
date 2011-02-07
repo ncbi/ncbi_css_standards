@@ -14,11 +14,11 @@ ol,ul{margin-left:2.75em;*margin-left:3em}
 ol{list-style:decimal outside;}
 ul{list-style:disc outside;}
 dl dd{margin-left:1em;}
-th,td{padding:.2em;}
-th{text-align:center}
+th,td{padding:.2em;border:1px solid #ddd}
+th{text-align:center;background-color:#f0f0f0;}
 thead{border-bottom:1px solid #eee}
 tfoot{border-top:1px solid #eee}
-table{border-collapse:collapse}
+table{border-collapse:collapse;margin:1.3846em 0}
 caption{margin-bottom:.5em;text-align:center}
 
 /*todo: inputs */
