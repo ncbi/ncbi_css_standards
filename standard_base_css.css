@@ -75,7 +75,7 @@ img{border:0}
 .column_list{list-style-type:none;margin:0;padding:0}
 .column_list li{float:left;width:8em}
 .offscreen{text-indent:-9999px}
-.offscreen_noflow{float:left;text-indent:-9999em;margin:0;padding:0;/*safari bugfix:*/height:0;}
+.offscreen_noflow{float:left;text-indent:-9999em;_display:block;margin:0;padding:0;/*safari bugfix:*/height:0;}
 .left{float:left}
 .right{float:right}
 .align_right{text-align:right}
