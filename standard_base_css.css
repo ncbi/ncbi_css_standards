@@ -93,4 +93,4 @@ sup{vertical-align:super;}
 sub{vertical-align:sub;}
 
 
-.shadow {-webkit-box-shadow:.4em .4em .5em #999;-moz-box-shadow:.4em .4em .5em #999;box-shadow:.4em .4em .5em #999}
+.shadow {-webkit-box-shadow:.4em .4em .5em rgba(153,153,153,.9);-moz-box-shadow:.4em .4em .5em rgba(153,153,153,.9);box-shadow:.4em .4em .5em rgba(153,153,153,.9)}
