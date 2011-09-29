@@ -1,0 +1,48 @@
+.rprt { overflow: hidden; _overflow: none; margin: 0.5em 0 1.5em 0; padding: 0; *margin-bottom: 0.9em; zoom: 1; display: block; clear: both; min-height: 40px; height: auto !important; height:40px; }
+
+.rprt .rprtnum { display: inline; float: left; overflow: visible; }
+.rprt .rprtnum * { display: block; }
+.rprt .rprtnum input { float: none; margin-left: 0; }
+.rprt .rprtnum span { clear: both; font-size: .833em; margin-right: 5px; margin-left: 1px; *margin-left: 4px; }
+
+.rprt .rslt { margin-left: 28px; *height: 1%; *margin-left: 0;}
+
+.rprt .rsltimg { float: left; }
+.rprt .rsltimg img { width: 100px;border: #666 solid 1px; padding: 1px; }
+.rprt .rsltcont { padding-left: 120px; }
+
+.rprt .title { font-size: 1.2em; margin:0; }
+.rprt .title a { color: #2222cc; }
+.rprt .title a:visited { color: #642a8f; }
+
+.rprt .supp { margin: .1425em 0; }
+.rprt .supp * { margin: 0; }
+.rprt .supp .desc { font-size: 1.1667em; display: block; }
+.rprt .supp .details { font-size: 1em !important; display: block; }
+
+.rprt dl { margin: 0; _margin-left: -.5em; }
+.rprt dl * { display: inline; padding: 0; margin: 0; } 
+.rprt dl dt { margin-left: .5em !important; }
+.rprt dl dt:first-child { margin-left: 0 !important; }
+.rprt dl.details { _margin-left: -.5em !important; } /* Resets above line in IE, which can't handle pseudoclasses */
+.rprt dl dd, .rprt dl dt { white-space: nowrap; }
+
+.rprt .aux .status_icon, .rprt .aux .links a { white-space: nowrap; }
+
+.rprt .aux, .rprt .aux p, .rprt .aux dl { font-size: 1em; margin-top: 0; margin-bottom: 0; line-height: 1.4em; /* need to edit line height when we pair the docsum styles with the new standard_base_css, 2.x branch styles */}
+
+.rprt .aux .resc { color: #575757; }
+.rprt .aux .status_icon { color: #985735; font-weight: bold; }
+.rprt .aux .src { margin-right: 15px; display: inline; }
+.rprt .aux .rprtid { color: #575757; display: inline; margin-right: 15px; }
+
+.rprt .aux .links a { text-decoration: underline; cursor: pointer; margin-right: 15px; color: #6666AA; white-space: nowrap; }
+.rprt .aux .links a:visited { color: }
+.rprt .aux .links .in_clip { margin-right: .5em; color: #D2692B; white-space: nowrap; }
+.rprt .aux .links .rem_clip { margin-right: .5em; color: #D2692B; text-decoration: none; border-bottom: 1px dotted #D2692B; white-space: nowrap; }
+
+.rprt .dblinks { font-size: 1em; margin-top: 0em; margin-bottom: 0em; line-height: 1.334em; }
+.rprt .dblinks a { text-decoration: none; cursor: pointer; font-size: 1em; white-space: nowrap; color: #6666AA; }
+.rprt .dblinks a:hover { text-decoration: underline; }	
+
+.rprt p.title a { _position: relative; _left: -.15em; }

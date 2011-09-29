@@ -1,0 +1,48 @@
+.portlet { font-size: .8333em; /* <- adjust 12px inherited to 10px base */ border-top: .4em solid #97b0c8; padding-top: .7em; margin: 1em 0 2.8em 0; overflow: visible; line-height: 1.1666; zoom:1; }
+.portlet h1, .portlet h2, .portlet h3, .portlet h4, .portlet h5, .portlet h6 { font-size: 1.4em; color: #985735; font-weight: bold; display: inline;  }
+.portlet .whatsthis {font-size: 1em; color: #14376c; white-space: nowrap; margin-left: .3em;}
+.portlet ul { margin: 0; padding: 0; }
+.portlet ul li { list-style-type: none; margin-top: .6em; padding-bottom: 1px; border-bottom: 1px dotted #ccc; position: relative; overflow: visible; zoom:1; /*_height:1.6em;_overflow:hidden;*/ }
+.portlet ul li a { text-decoration: none; color: #14376c; font-size: 1.2em; border-bottom:0 }
+.portlet ul li a:hover,.portlet ul li a:active{border-bottom:0}
+.portlet .seemore { display: block; text-align: right; color: #14376c; font-size: 1.2em; text-decoration: none; margin-top: .8em; }
+.portlet ul a { _display: block; _float: left; _clear: left; }
+
+.portlet li.two_line { height: 2.8em; height\0: 2.9em; overflow: hidden; }
+.portlet .two_line a { max-height: 2.5em; overflow: hidden; display: block; }
+.portlet .long_info, .portlet p, .portlet .two_line .source, .portlet .one_line_source { color: #777; font-size: 1.2em;  }
+.portlet .two_line .source, .portlet .one_line_source { white-space: nowrap; position: absolute; right: 0; background-color: white; padding-left: .3em; }
+.portlet .two_line .source { top: 1.15em; }
+.portlet .one_line_source {  }
+.portlet .two_line .tertiary { font-size: 1em; color: #777; position: absolute; right:0; background-color: white; padding: .1em 0 0 .3em; top: 1.4em; top\0: 1.3em; }
+
+.portlet .portlet_content p { margin: .8em 0; }
+.portlet .buttonwrap { float: left; position: relative; top: -.1em; overflow: visible; }
+.portlet .invert { color: #fff; background-color: #14376c; padding: 0 .2em; }
+.portlet .tertiary { font-size: 1em; color: #777; text-align: right; line-height: 1.4em; position: relative; top: .1em; }
+
+.portlet_content { position: relative; }
+.portlet_content textarea { margin: 0 0 .9em; }
+.portlet_content img { margin: .3em 1.4em .7em 0;}
+.portlet_content .image { display: block; overflow: auto; overflow:hidden\0; }
+.portlet_content .image .img_link { font-size:1em; float: left; }
+ 
+
+.portlet_shutter { background: transparent url(portal:/img/shutter_icon_gif) no-repeat scroll left top; display: block; float: right; width: 15px; height: 15px; position: absolute; top: -.2em; margin-left: .6em; right: 0; }
+.shutter_closed { background-position: left bottom; }
+.portlet .related li { font-size: 1.2em; border-bottom: 0; }
+.portlet .right { text-align: right; }
+
+.ra_qry, .ra_rcd { padding-left: 2em; }
+.ra_qry { background: transparent url(portal:/img/qry_gif) no-repeat scroll 0 1px; }
+.ra_rcd { background: transparent url(portal:/img/rcd_gif) no-repeat scroll 0 1px; }
+
+.sensor{font-size: .8333em;border:1px solid #9ab6cd;background-color:#f2f5f8;padding:0 1em 1em;margin:1em 0}
+.sensor h3,.sensor h4,.sensor h5,.sensor h6{font-size: 1.4em;margin:.6923em 0}
+.sensor .sensor_content{margin-bottom:1.1em}
+.sensor p{font-size:1.2em;margin:.5em 0 0}
+.no_p_margins{margin:0}
+
+/*shared*/
+.portlet_head,.sensor_head{margin-bottom:.6em;position: relative}
+.portlet_title,.sensor_title{margin-right: 2em}
