@@ -3,7 +3,7 @@
 .caps{text-transform:capitalize;}
 .small-caps{font-variant:small-caps;letter-spacing:.02em;}
 .overline{text-decoration:overline;}
-.roman{font-style:none}
+.roman{font-style:normal}
 .greek{font-family:Georgia, Times,"Times New Roman", serif}
 
 
@@ -37,6 +37,7 @@
 
 /*figures*/
 .figure{margin: 1.3846em 0}
+.eight_col img.fullwidth { width: 100% !important; }
 
 /*metadata*/
 .subtitle{font-weight:bold;margin-top:-.5em}
@@ -49,5 +50,3 @@
 .box.warn h3 {background-color:#f7d118;border-bottom:1px solid #000;height:21px;margin: 0 0 35px;padding-top:2px;text-align:center;}
 .box.warn p {padding: 0 35px 0 35px;}	
 .box.warn * {color: #000;}
-
-
