@@ -3,8 +3,8 @@ body{ font: 62.5%/1.3846 arial, helvetica, clean, sans-serif}
 .grid{font-size: 1.3em}
 
 /* re-reset styles when applicable*/
-h1,h2,h3,h4,h5,strong,th{font-weight:bold;}
-em{font-style:italic;}
+h1,h2,h3,h4,h5,strong,th,b{font-weight:bold;}
+em,i{font-style:italic;}
 abbr,acronym{cursor:help;border-bottom:1px dotted #000;}
 p,table,pre,fieldset,dl{margin: .6923em 0;}
 ul,ol{margin:.6923em 1em;}
