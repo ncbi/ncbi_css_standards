@@ -34,23 +34,13 @@ h3{font-size: 1.0769em; line-height:1.2857; margin:1.2856em 0 .6428em; } /* font
 h4,h5,h6,h3.inline{font-size: 1em; margin:1.3846em 0 .6923em; } /* line-height of 18px */
 h5{font-style:italic;font-weight:normal;}
 
-/*h6{color:#985735;}
-h5{color:#724128;}*/
 h4{color:#59331f;}
 h3{color:#724128;}
 h2{color:#985735;}
 h1{color:#000;}
 
-
-
-
-h1::after,h2::after,h3::after,h4::after,h5::after,h6::after{/*content:""; display:block;font-size:3px;*/}
-h1::after,h2::after,h3::after,h4::after,h5::after,h6::after{/*margin:-1em;*/}
-h3.inline::after,h4.inline::after,h5.inline::after,h6.inline::after{/*content:none;*/}
-
 /*InlineHeaders*/
 h3.inline,h4.inline,h5.inline,h6.inline{display:inline;float:left;margin:0;padding-right:.3em;}
-
 
 /* typography helpers */
 /* use in context of 13px font-size */
@@ -65,9 +55,7 @@ h3.inline,h4.inline,h5.inline,h6.inline{display:inline;float:left;margin:0;paddi
 .content a:hover,.content a:active{color:#985735}
 .content a:visited{color:#642a8f}
 
-
 /* need callout-y pullquote-y rules and rules for images and captions, etc as well */
-
 
 /*general*/
 img{border:0}
@@ -91,7 +79,13 @@ img{border:0}
 .small,sup,sub{font-size:.8461em;} /*11px font-size */
 .small sup,.small sub{font-size:1em}
 .small{line-height:1.6363em}
-sup{vertical-align:super;}
-sub{vertical-align:sub;}
+sup{vertical-align:super;line-height:0}
+sub{vertical-align:sub;line-height:0}
 
-.shadow {-webkit-box-shadow: 0.4em 0.4em 0.5em rgba(0,0,0,.4);-moz-box-shadow: 0.4em 0.4em 0.5em rgba(0,0,0,.4);box-shadow: 0.4em 0.4em 0.5em rgba(0,0,0,.4)}
+.shadow {-webkit-box-shadow: 0.4em 0.4em 0.5em rgba(0,0,0,.3);-moz-box-shadow: 0.4em 0.4em 0.5em rgba(0,0,0,.3);box-shadow: 0.4em 0.4em 0.5em rgba(0,0,0,.3)}
+
+/*icon blocks*/
+.iconblock{overflow:hidden}
+.icnblk_img{text-decoration:none;float:left;margin-right:1em;cursor:pointer}
+.icnblk_cntnt{display:table-cell;vertical-align:top;*zoom:1}
+.icnblk_cntnt h1,.icnblk_cntnt h2,.icnblk_cntnt h3,.icnblk_cntnt h4{margin:0 0 .6923em}
