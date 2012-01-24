@@ -1,5 +1,5 @@
 /* typography */
-body{ font: 62.5%/1.3846 arial, helvetica, clean, sans-serif}
+body{font:62.5%/1.3846 arial,helvetica,clean,sans-serif;background-color:#ccc}
 .grid{font-size: 1.3em}
 
 /* re-reset styles when applicable*/
