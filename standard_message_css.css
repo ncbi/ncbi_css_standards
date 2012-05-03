@@ -1,0 +1,5 @@
+/*msg*/
+.app_msg{background-color: #fff;  padding-bottom: 1em; margin-bottom: 1em;}
+.app_msg p{margin: .1em 0;}
+.app_msg_controls{text-align:right;}
+.app_msg_controls a{font-size: 0.9em;}

@@ -1,0 +1,71 @@
+/*over-ride 1.x css styles*/
+#EntrezForm .container{font-size:1em}
+
+/*need to re-examine at jig version*/
+.jig-ncbibutton{padding:0;border-radius:6px}
+.jig-ncbibutton span.ui-button-text{padding:.3em .8em}
+
+.adv_search_content,.messagearea{margin:0 auto;width:81%;width:100%\9;max-width:950px\9}
+.adsearch_box{margin-top:3em}
+
+.advsec{margin:2.4615em 0}
+.history{border-top: 1px solid #ddd;padding-top:2.4615em}
+
+.index_message { margin: 0.4em auto 0.3em 17.5em; width:54.7% }
+.list_term_text{width:55%;width:53%\9}
+.list_term_text:focus{-moz-box-shadow:0 0 .3em rgba(211,186,44,.8);-webkit-box-shadow:0 0 .3em rgba(211,186,44,.8);box-shadow:0 0 .3em rgba(211,186,44,.8)}
+.index_field{width:12em;}
+
+@media all and (min-width:1200px){
+    .adv_search_content{width:950px}}
+@media all and (max-width:1060px){.list_term_text{width:45% !important}}
+@media all and (max-width:900px){
+    body{min-width:30em !important}
+    .list_term_text{width:40% !important}
+    .adv_search_content{width:100%}}
+@media all and (max-width:750px){
+    #TermList{margin-left:2em !important}
+    .index_field{width:6em !important}}
+@media all and (max-width:550px){
+    .list_term_text{width:35% !important}
+    #HistoryView tr > td:last-of-type,#HistoryView tr > th:last-of-type{display:none}}
+
+.input_wrap{display:inline;white-space:nowrap}
+
+/*over-ride standard, b/c context is user interface*/
+th{font-weight:normal}
+
+/*remaining*/
+.search_form textarea{font-size:1.5145em;*font-size:1.35em;*height:4em;width:100%;background-color:#f1f1f1;border:1px solid #bbb;color:#555}
+@media screen and (-webkit-min-device-pixel-ratio:0){.search_form textarea{font-size:1.05em}}/*for Safari*/
+.built_search{background-color:#fafafa;border:1px solid #ccc;padding:.2em;overflow:auto;font-size:1.0769em;color:#666}
+
+caption{text-align:left}
+.query{width:67%}
+h3.inline{margin-right:1em}
+.head{overflow:hidden;*position:relative}
+.head .links{float:right;*position:absolute;*right:0}
+.sb_line_add{margin-left:17.5em}
+.sb_line{margin:.3em 0;clear:left}
+.sb_line select,.sb_line input{margin-right:.3em}
+#HistoryView{width:100%}
+
+.line_ico{width:14px;height:15px;text-indent:-9999em;display:inline-block;margin:0 2px 0 2px;padding:3px 2px;position:relative;top:1px}
+.add_line{background:transparent url(portal:/img/add_rem) no-repeat 2px 50%}
+.rem_line{background:transparent url(portal:/img/add_rem) no-repeat -16px 50%}
+.show_index{margin-left:5px}
+.extra_space{margin-right:24px}
+.hint{color:#666}
+
+#TermList{float:left;width:45%;margin:0 .8em 1em 17.6em}
+#TermList select{width:100%}
+.phn a{display:block;margin-top:.5em}
+#index_refresh{margin-top:7.8em}
+.clear{clear:both}
+
+.dateinputtext label{margin-right:0.1em}
+.blurred{color:#999}
+.dateinputtext .hint{margin-left:1em}}
+
+p.none{display:none}
+p.error{background-color:#fbb;padding:.2em}

@@ -1,4 +1,4 @@
-.grid{ min-width:800px; max-width:1200px; width:100%; clear:both; margin:0 auto; text-align:left; overflow:hidden }
+.grid{ min-width:800px; max-width:1200px; width:100%; clear:both; margin:0 auto; text-align:left }
 
 .col { margin-right: 1%; float: left; background-color: #fff; overflow:hidden; }
 .last { *zoom:1; *margin-right:0; _margin-right:-6px;  }
@@ -14,3 +14,8 @@
 .ten_col { width: 82.3333%; }
 .eleven_col { width: 90.6666%; }
 .twelve_col { width: 98.9999%; }
+
+@media all and (max-width: 800px){
+    .grid{min-width:0}
+    .col{float:none;width:auto;margin-right:0;padding-right:.5em}
+}

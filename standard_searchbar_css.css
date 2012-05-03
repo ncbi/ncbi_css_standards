@@ -1,17 +1,17 @@
-.header{background:#d5d5d5 url(portal:/img/header_gradient) repeat-x scroll left bottom}
+.header{background:#d5d5d5 url(portal:/img/header_gradient) repeat-x scroll left bottom; position: relative;margin-bottom: 1.231em;z-index:20 }
 .header a{text-decoration:none}
 .header a:hover{text-decoration:underline}
 
-.search{margin:0 0 0 17em; padding:1.2em 0 .7em}
-.search_form select,.search_form .jig-ncbiclearbutton-wrap,.search_form button{margin-right:.2em}
-.search_form select{font-size:1.4em;width:8.5em;margin-right:.3em; *vertical-align: middle; }
-.search_form input{font-size:1.5em;width:48%;display:inline-block; _width:100%; }
-.search_form div.nowrap { *height: 100%; }
-.search_form button.nowrap { *vertical-align: middle; }
-.search_form div.nowrap div.nowrap { *height: 100%; *vertical-align: middle; }
-@media screen and (min-width:900px){.search_form input{width:63%}}
+.search{margin:0 0 0 13.539em; padding:1.2em 0 .7em}
+.search_form{*zoom:1}
+.search_form select,.search_form .jig-ncbiclearbutton-wrap,.search_form button{margin-right:.2em;font-family:arial,helvetica,sans-serif;}
+.search_form select{font-size: 1.077em; width:8.5em;margin-right:.3em;*vertical-align: middle;}
+.search_form input{font-size: 1.1543em; width:48%;display:inline-block;_width:100%}
+.search_form div.nowrap {*height: 100%; }
+.search_form button.nowrap {*vertical-align: middle; }
+.search_form div.nowrap div.nowrap {*height: 100%; *vertical-align: middle; }
 .search_form .nowrap{display:inline;*zoom:1}
-.searchlinks{font-size:1.2em;margin:.2em 0 0 11em;_zoom:1}
+.searchlinks{margin:.2em 0 0 9.6em;_zoom:1}
 .searchlinks li{margin-right:1.2em;zoom:1}
 .searchlinks .help{position:absolute;right:1em;margin-right:0;_margin-top:-.1em}
 .searchlinks .hidden{display:none}
@@ -19,21 +19,21 @@
 .search_form .wrap{position:relative;display:inline;_width:70%}
 #cl{position:absolute;right:8px;top:-3px;top:-12px\9;*top:5px}
 
-.search_form button{font-size:1.3em;border:0 none;cursor:pointer;overflow:visible;width:auto;background-color:#ddd;padding:.2em .4em;*padding:.2em .6em;_padding:.2em .4em;margin:0 .2em;*margin:0 .3em;*height:1.8em; -moz-border-radius:5px;-webkit-border-radius:5px;border-radius:5px;text-shadow:.1em .1em .1em rgba(0,0,0,.5);-moz-box-shadow:.1em .1em .1em rgba(0,0,0,.5);-webkit-box-shadow:.1em .1em .1em rgba(0,0,0,.5);box-shadow:.1em .1em .1em rgba(0,0,0,.5)}
-.search_form button.button_search{background-color:#47a;font-weight:bold;color:#fff;*margin-left:.5em}
+.search_form button{border:0 none;cursor:pointer;overflow:visible;width:auto;background-color:#ddd;padding:.2em .4em;*padding:.2em .6em;_padding:.2em .4em;margin:0 .2em;*margin:0 .3em;*height:2em; -moz-border-radius:5px;-webkit-border-radius:5px;border-radius:5px;text-shadow:.1em .1em .1em rgba(0,0,0,.5);-moz-box-shadow:.1em .1em .1em rgba(0,0,0,.5);-webkit-box-shadow:.1em .1em .1em rgba(0,0,0,.5);box-shadow:.1em .1em .1em rgba(0,0,0,.5)}
+.search_form button.button_search{background-color:#47a;font-weight:bold;color:#fff;*margin-left:.5em;font-size:inherit;}
 .search_form button.button_search:active{background-color:#4c96df}
 .search_form button.button_preview{background-color:#A64D48;font-weight:bold;color:#fff}
 .search_form button.button_preview:active{background-color:#F27069}
 
 .search_form input:focus{-moz-box-shadow:0 0 .3em rgba(211,186,44,.8)}
 
-.search_form .jig-ncbiclearbutton-wrap { width: 50%; *display: inline; border:1px solid #999; }
+.search_form .jig-ncbiclearbutton-wrap { width: 65%; *display: inline; border:1px solid #999; }
 .search_form .jig-ncbiclearbutton-wrap input { width: 100%; *width: 50%; }
 .search_form .jig-ncbiclearbutton-wrap a.reset { margin-left: 0; top: 50%; margin-top: -7px; }
 
 .rss_icon{position:relative;top:3px;margin-right:.3em}
 
-.rss_menu{z-index:1001;display:none;font-size:1.2em}
+.rss_menu{z-index:1001;display:none;}
 .rss_menu legend{font-weight:bold;margin:2px 0 0 3px}
 .rss_menu ul{margin:0;padding:0;list-style-type:none;padding-top:5px}
 .rss_menu ul li{margin-bottom:.4em}
@@ -46,11 +46,11 @@
 
 .db_logo{background:transparent url() no-repeat scroll left top;display:block;height:36px;width:100px;text-indent:-9999px}
 
-.res_logo{width:15em;left:1.6em;padding-top:.4em;position:absolute}
-.res_logo h1{font-size:2em;font-weight:normal;margin:0}
+.res_logo{width:11.539em;left:1.231em;padding-top:.4em;position:absolute}
+.res_logo h1{font-weight:normal;margin:0}
 /*sibling of res_logo*/
 .long{padding:.5em 0}
-.long h1{font-size:1.8em;line-height:1.15}
+.long h1{line-height:1.15}
 
 .res_logo h1 a{color:#333;display:block;padding:.3em 0;text-shadow:1px 1px 1px rgba(240,240,240,.9)}
 .res_tagline{display:none}

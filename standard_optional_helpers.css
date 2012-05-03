@@ -18,6 +18,8 @@
 .first-line-outdent{list-style-type:none}
 .first-line-outdent li:first-letter{margin-left:-1.5em}
 
+.large-number-list{margin-left:2.75em;*margin-left:3em}
+
 /*left-leaning blocks*/
 .labeled-list{}
 .labeled-list dt{float:left;margin-right:.8em}
@@ -44,3 +46,9 @@
 .box.warn h3 {background-color:#f7d118;border-bottom:1px solid #000;height:21px;margin: 0 0 35px;padding-top:2px;text-align:center;}
 .box.warn p {padding: 0 35px 0 35px;}	
 .box.warn * {color: #000;}
+
+/*table overrides*/
+.default_table tfoot{border:none}
+.default_table thead{border:none}
+.default_table th{background-color:inherit}
+.default_table th,td{border:none}

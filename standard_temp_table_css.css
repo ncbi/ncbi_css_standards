@@ -1,0 +1,27 @@
+table[frame='void']{border:0}
+table[frame='above']{border-top:1px solid #000}
+table[frame='below']{border-bottom:1px solid #000}
+table[frame='hsides']{border-top:1px solid #000;border-bottom:1px solid #000}
+table[frame='vsides']{border-left:1px solid #000;border-right:1px solid #000}
+table[frame='lhs']{border-left:1px solid #000}
+table[frame='rhs']{border-right:1px solid #000}
+table[frame='box'],table[frame='border']{border:1px solid #000}
+
+table[rules='none'] td{border:0}
+table[rules='rows'] tr{border-top:1px solid #888;border-bottom:1px solid #888}
+table[rules='cols'] td,table[rules='cols'] th{border-left:1px solid #888;border-right:1px solid #888}
+table[rules='groups'] thead+tbody,table[rules='groups'] tfoot+tbody,table[rules='groups'] tbody+tbody{border-bottom:1px solid #888}
+table[rules='groups'] tbody+tfoot,table[rules='groups'] thead+tfoot,table[rules='groups'] thead+tbody{border-top:1px solid #888}
+table[rules='groups'] col,table[rules='groups'] colgroup{border:0}
+table[rules='groups'] col+col,table[rules='groups'] colgroup+colgroup{border-left:1px solid #888}
+table[rules='all'] td,table[rules='all'] th{border:1px solid #888}
+table[rules='cols'] td:first-child,table[rules='cols'] th:first-child,table[rules='all'] td:first-child,table[rules='all'] th:first-child{border-left:0}
+table[rules='cols'] td:last-child,table[rules='cols'] th:last-child,table[rules='all'] td:last-child,table[rules='all'] th:last-child{border-right:0}
+table[rules='rows'] tr:first-of-type,table[rules='all'] tr:first-of-type{border-top:0}
+table[rules='rows'] tr:last-of-type,table[rules='all'] tr:last-of-type{border-bottom:0}
+
+/*correct for nth-of-type being parent dependent*/
+table[rules='rows'] thead+tfoot,table[rules='rows'] thead+tbody,table[rules='rows'] tbody+tbody,table[rules='rows'] tbody+tfoot{border-top:1px solid #888}
+table[rules='all'] tr:first-of-type td,table[rules='all'] tr:first-of-type th{border-top:0}
+table[rules='all'] tr:last-of-type td,table[rules='all'] tr:last-of-type th{border-bottom:0}
+table[rules='all'] thead+tfoot,table[rules='all'] thead+tbody,table[rules='all'] tbody+tbody,table[rules='all'] tbody+tfoot{border-top:1px solid #888}
