@@ -75,8 +75,7 @@ img{border:0}
 .nowrap{white-space:nowrap}
 .noborder{border:0}
 .inline_block{display:-moz-inline-box;display:inline-block;*display:inline;zoom:1;}
-.clearfix{display:block;zoom:1}
-.clearfix::after{clear:both;content:'.';display:block;font-size:0px;height:0px;line-height:0;visibility:hidden}
+.clearfix:before,.clearfix:after{content:"";display:table}.clearfix:after{clear:both}.clearfix{zoom:1}
 
 .small,sup,sub{font-size:.8461em;} /*11px font-size */
 .small sup,.small sub{font-size:1em}
