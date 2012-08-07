@@ -41,7 +41,7 @@ h2{color:#985735;}
 h1{color:#000;}
 
 /*InlineHeaders*/
-h3.inline,h4.inline,h5.inline,h6.inline{display:inline;float:left;margin:0;padding-right:.3em;line-height:1.68em}
+h3.inline,h4.inline,h5.inline,h6.inline{display:inline;float:left;margin:0;padding-right:.3em}
 
 /* typography helpers */
 /* use in context of 13px font-size */
@@ -80,7 +80,7 @@ img{border:0}
 .small,sup,sub{font-size:.8461em;} /*11px font-size */
 .small sup,.small sub{font-size:1em}
 .small{line-height:1.6363em}
-sup,sub{position:relative;line-height:0;vertical-align:baseline}
+sup,sub{position:relative;vertical-align:baseline}
 sup{top:-.5em}
 sub{top:.25em}
 
@@ -89,5 +89,6 @@ sub{top:.25em}
 /*icon blocks*/
 .iconblock{overflow:hidden}
 .icnblk_img{text-decoration:none;float:left;margin-right:1em;cursor:pointer}
+.icnblk_img_right { float: right; margin-right: 0; margin-left: 1em;}
 .icnblk_cntnt{display:table-cell;vertical-align:top;*zoom:1}
 .icnblk_cntnt h1,.icnblk_cntnt h2,.icnblk_cntnt h3,.icnblk_cntnt h4{margin:0 0 .6923em}
