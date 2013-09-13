@@ -1,5 +1,102 @@
-/*msg*/
-.app_msg{background-color: #fff;  padding-bottom: 1em; margin-bottom: 1em;}
-.app_msg p{margin: .1em 0;}
-.app_msg_controls{text-align:right;}
-.app_msg_controls a{font-size: 0.9em;}
+div.messagearea {
+    margin:0;
+    padding: 0;
+    border-bottom: solid 1px #888;
+    clear:both;
+}
+
+div.browsername {
+    background-color: #FFF;
+    padding-left: 0.5em;
+    }
+
+#messagearea.empty {
+    border: none;
+    clear: both;
+}
+
+div#messagearea ul.messages li.hi_warn { margin: 2.5em 0; }
+
+ul.messages {
+    font-family: arial, helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    list-style-image: none;
+}
+
+ul.messages li {
+    margin: 0.22em 0 0.22em;
+    padding: 0.25em;
+    background: transparent no-repeat 0.5em 0.3em;
+    position: relative;
+}
+
+ul.messages li .icon, ul.messages li.icon{ 
+    background: url(portal:/img/MessageSprites) no-repeat; 
+    display: block; 
+    margin-right: 4px;
+    padding-left: 16px;
+}
+
+ul.messages li span.icon {
+    background: #fff;
+    padding-left: .5em;
+    padding-top: .35em;
+    margin-top: -.5em;
+}
+
+ul.messages li.success .icon, ul.messages li.success.icon {
+    background-position: 0 0;
+}
+ul.messages li.warn .icon, ul.messages li.hi_warn .icon, ul.messages li.warn.icon, ul.messages li.hi_warn.icon {
+    background-position: -17px 0;
+}
+
+ul.messages li.suggest .icon, ul.messages li.suggest.icon {
+    background-position: -34px 0;
+}
+ul.messages li.info .icon, ul.messages li.info.icon {
+    background-position: -51px 0;
+}
+ul.messages li.error .icon, ul.messages li.error.icon {
+    background-position: -68px 0;
+}
+
+ul.messages li.hi_warn em.detail{
+    font-weight: normal;
+    font-style: normal;
+    padding-left: 1.7em;
+}
+
+ul.messages li.hi_warn {
+    font-weight: bold;
+}
+
+/* Message_icon - will refine a bit more*/
+.success, .error, .warn, .info, .suggest, .hi_warn {
+    background-image: url(portal:/img/MessageSprites);
+    padding-left: 17px;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    margin-bottom:.5em
+}
+.success {
+    background-position: 0 0;
+}
+.warn {
+    background-position: -17px 0;
+}
+.hi_warn {
+    background-position: -17px 0;
+    font-weight: bold;
+}
+.suggest {
+    background-position: -34px 0;
+}
+.info {
+    background-position: -51px 0;
+}
+.error {
+    background-position: -68px 0;
+}
