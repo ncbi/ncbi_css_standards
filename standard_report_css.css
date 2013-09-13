@@ -63,9 +63,7 @@
 	font-size: 0.923em;
 	display: block; }
 
-.rprt dl {
-	margin: 0;
-	_margin-left: -.5em; }
+.rprt dl{margin:0}
 
 .rprt dl dt, .rprt dl dd {
 	display: inline;
@@ -75,11 +73,18 @@
 .rprt dl dt { margin-left: .5em !important; }
 
 .rprt dl dt:first-child { margin-left: 0 !important; }
-
 .rprt dl.details { _margin-left: -.5em !important; }
 
 /* Resets above line in IE, which can't handle pseudoclasses */
 .rprt dl dd, .rprt dl dt { white-space: nowrap; }
+
+/*left-leaning and butterfly styles*/
+.rprt dl.lefty{display:block}
+.rprt dl.lefty dt{width:10em;display:table-cell}
+.rprt dl.lefty dd{display:table-cell}
+.rprt dl.butterfly{display: block;margin:0;clear:both}
+.rprt dl.butterfly dt{width: 10em; float: left; clear: left; text-align: right; margin-right: 10px;  }
+.rprt dl.butterfly dd{margin: 0 0 0 10em; clear: right; }
 	
 .rprt .aux { font-size: 0.923em; }
 
