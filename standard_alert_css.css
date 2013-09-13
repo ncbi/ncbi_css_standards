@@ -1,0 +1,25 @@
+.sysmessages .ncbi-alerts .alert-content { 
+    background: none repeat scroll 0% 0% #671414; 
+    color: #FFFFFF;
+    padding: .231em 1.231em; }
+
+.sysmessages .ncbi-alerts .alert-content h2 { 
+    color: #fff; 
+    display: inline;  
+    font-size: 1em;
+    font-weight:bold;
+    *margin-right: 0.615em; }
+
+.sysmessages .ncbi-alerts .alert-content h2:after { content: ": " }
+
+.sysmessages .ncbi-alerts .alert-content h2 + p { display: inline; }
+
+.sysmessages .ncbi-alerts .alert-content .icon{ 
+    background-image: url(portal:/img/standard_message_icons); 
+    background-position: 0 -16px;
+    background-repeat: no-repeat; 
+    display: inline-block; 
+    height: 16px; 
+    margin-bottom: -.231em; 
+    margin-right: 4px;
+    width: 16px; }
