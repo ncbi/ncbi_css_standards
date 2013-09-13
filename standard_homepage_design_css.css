@@ -1,21 +1,20 @@
-.dbheader { height: 10.7692em; margin: 2.1538em 1.2307em; overflow: hidden; border: 1px solid #000; }
-.dbheader .headerimage { background: transparent url(portal:/img/homepage_welcome_gradient) no-repeat 58% 52%; height: 100%; width: 33%; float: left; _left:0px; _position:absolute; }
+.dbheader { height: 10.769em; overflow: hidden; border: 1px solid #000; }
+.dbheader .headerimage { background: transparent url(portal:/img/homepage_welcome_gradient) no-repeat 58% 52%; background-size: 100% 100%; height: 100%; width: 33%; float: left; _left:0px; _position:absolute; }
 .dbheader .headerintro { background-color: #141927; border-left: 1px solid #000; height: 100%; margin-left: 33%;  }
-.dbheader .headerintro h1 { color: #f7f7f7; font-size: 1.8461em; font-weight: bold; background: transparent url(portal:/img/homepage_welcome_gradient) repeat-y 0 0; margin:0; padding: .333em .75em .333em .75em;  }
-.headerintro .dbdescription { color: #f7f7f7; font-size: 1.0769em; padding: 1.285em; }
+.dbheader .headerintro h1 { color: #f7f7f7; font-size: 1.846em; font-weight: bold; background: transparent url(portal:/img/homepage_welcome_gradient) repeat-y 0 0; margin:0; padding: .333em .75em .333em .75em; line-height: 1em; }
+.headerintro .dbdescription { color: #f7f7f7; font-size: 1.077em; padding: 1.285em; }
 
-.dbheaderad { font-size: .8333em; height: 14.2em; margin: 1.6em 1.6em 2.8em; overflow: hidden; }
+.dbheaderad { height: 14.2em; margin: 1.6em 1.6em 2.8em; overflow: hidden; }
 .dbheaderad .aboutdb { width: 66%; border: 1px solid #000; height: 14em; float: left; _height: 100%; }
 .dbheaderad .aboutdb .headerimage { background: transparent url(portal:/img/homepage_welcome_gradient) no-repeat 20% 52%; height: 100%; width: 17%; float: left; }
 .dbheaderad .aboutdb .headerintro { background-color: #141927; border-left: 1px solid #000; height: 100%; margin-left: 17%; }
-.dbheaderad .aboutdb .headerintro h1 { color: #f7f7f7; font-size: 2.4em; font-weight: bold; background: transparent url(portal:/img/homepage_welcome_gradient) repeat-y 0 0; margin:0; padding: .333em .75em .75em; }
+.dbheaderad .aboutdb .headerintro h1 { color: #f7f7f7; font-weight: bold; background: transparent url(portal:/img/homepage_welcome_gradient) repeat-y 0 0; margin:0; padding: .333em .75em .75em; }
 
-.dbheaderad .aux { color: #f7f7f7; background: transparent url(portal:/img/aux_background.png) repeat-x 0 0; border: 1px solid #000; margin:0; width: 31%; height: 7.43em; margin-left: 68%; font-size: 1.4em; padding: 1.285em; zoom:1; *width: 27.2%; _width: 100%; _height: 100%; }
-
+.dbheaderad .aux { color: #f7f7f7; border: 1px solid #000; margin:0; width: 31%; height: 7.43em; margin-left: 68%; font-size: 1.4em; padding: 1.285em; zoom:1; *width: 27.2%; _width: 100%; _height: 100%; }
 
 /* portlet placement */
-.tier { margin: 1.6em 1.6em 2.8em; overflow: auto; zoom: 1;}
+.tier { margin: 1.6em 0 2.8em; overflow: auto; zoom: 1;}
 .tier .onecol { width: 32%; margin-right: 2%; float: left; } 
 .tier .lastcol { margin-right: 0; *width: 31.5%; }
 
-.img-credit { color: #777; font-size: .9166em; text-align: right; margin: 0 1.6em -1.5em; }
+.img-credit { color: #777; text-align: right; margin: 0 1.6em -1.5em; }
