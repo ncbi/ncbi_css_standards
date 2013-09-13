@@ -11,4 +11,4 @@
 .tabPopper fieldset{border:0;padding:0;margin:4px 10px}
 .tabPopper fieldset ul,.tabPopper fieldset dl{border-top:1px solid #ddd;padding-top:3px}
 .tabPopper fieldset dl{margin:0 0 6px 0}
-.tabPopper fieldset input{position:relative;top:3px;*top:2px}
+.tabPopper fieldset input{position:relative;top:1px}
