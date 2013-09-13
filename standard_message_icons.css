@@ -1,0 +1,28 @@
+
+.success, .error, .warn, .info, .suggest, .hi_warn {
+    background-image: url(portal:/img/MessageSprites);
+    padding-left: 1.2em;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    margin-bottom:.5em
+}
+.success {
+    background-position: 0 0;
+}
+.warn {
+    background-position: -17px 0;
+}
+.hi_warn {
+    background-position: -17px 0;
+    font-weight: bold;
+}
+.suggest {
+    background-position: -33px 0;
+}
+.info {
+    background-position: -49px 0;
+}
+.error {
+    background-position: -65px 0;
+}
+

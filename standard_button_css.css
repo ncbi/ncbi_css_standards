@@ -1,0 +1,30 @@
+/* Default styles */
+.jig-button { font-size: 100% !important; border-width: 1px; border-style: solid; cursor: pointer; font-family: inherit; padding: .15em 1.25em; *padding-bottom: 0em; text-decoration: none; -border-radius: 13px; -moz-border-radius: 13px; -webkit-border-radius: 13px; } 
+
+/* Padding reset for a.jig-button */
+a.jig-button { padding: .25em 1.6em; } 
+
+/* Disabled base style */
+.jig-button[disabled] { text-shadow: 0 0 0 !important; filter: dropshadow(color=#fff, offx=0, offy=0) !important; cursor: default; } 
+
+/* Button image */
+.jig-button-image { overflow: visible; padding: .2em 1em .2em .75em; *padding-top: .4em; width: auto;}  a.jig-button-image { padding: .125em 1em .125em .75em; display: inline-block; }  a.jig-button-image .jig-button-sprite { margin-top:2px !important; }  .jig-button-sprite { background-image: url("portal:/img/ui_button_sprites"); background-color: transparent; background-repeat: no-repeat; display: inline-block; float: none; padding: 0; margin: 0 2px -2px 0 !important; *margin: 0px 5px -2px -1px !important; }
+.jig-button-pause { height: 15px; width: 15px; background-position: -0px -0px; }
+.jig-button-delete { height: 15px; width: 15px; background-position: -15px -0px; }
+.jig-button-tick { height: 15px; width: 15px; background-position: -30px -0px; }
+.jig-button-cancel { height: 15px; width: 15px; background-position: -45px -0px; }
+
+/* Default button colors */	
+.jig-button-gray, .jig-button-gray[disabled]:active, .jig-button { color: #444; text-shadow: 1px 1px 1px #ffffff; filter: dropshadow(color=#ffffff, offx=1, offy=1); border-color: #a6a6a6 !important; background: #ededed; background: -moz-linear-gradient(top, #ededed 0%, #cdcdcd 100%); background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ededed), color-stop(100%,#cdcdcd)); filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ededed', endColorstr='#cdcdcd',GradientType=0 ); }
+.jig-button-gray:active, .jig-button:active { background: #e5e5e5; background: -moz-linear-gradient(top, #cccccc 0%, #eeeeee 100%); background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#cccccc), color-stop(100%,#eeeeee)); filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cccccc', endColorstr='#eeeeee',GradientType=0 ); }
+.jig-button-gray[disabled], .jig-button-gray[disabled]:active { color: #a6a6a6; border-color: #d3d3d3 !important; background: #f5f5f5; background: -moz-linear-gradient(top, #f5f5f5 0%, #e7e7e7 100%); background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f5f5f5), color-stop(100%,#e7e7e7)); filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f5f5f5', endColorstr='#e7e7e7',GradientType=0 ); }
+
+/* Copper */
+.jig-button-copper, .jig-button-copper[disabled]:active { color: #fff; text-shadow: 1px 1px 1px #301b04; filter: dropshadow(color=#301b04, offx=1, offy=1); border-color: #642f15 !important; background: #985735; background: -moz-linear-gradient(top, #985735 0%, #783b1d 100%); background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#985735), color-stop(100%,#783b1d)); filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#985735', endColorstr='#783b1d',GradientType=0 );  } 
+.jig-button-copper:active { background: #783b1d; background: -moz-linear-gradient(top, #783b1d 0%, #985735 100%); background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#783b1d), color-stop(100%,#985735)); filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#783b1d', endColorstr='#985735',GradientType=0 );  }
+.jig-button-copper[disabled], .jig-button-copper[disabled]:active { color: #eee3de; border-color: #aa9c94 !important; background: #c1b0a6; background: -moz-linear-gradient(top, #c1b0a6 0%, #b3a39a 100%); background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#c1b0a6), color-stop(100%,#b3a39a)); filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c1b0a6', endColorstr='#b3a39a',GradientType=0 ); }
+
+/* Blue */
+.jig-button-blue, .jig-button-blue[disabled]:active { color: #fff; text-shadow: 1px 1px 1px #092e59; filter: dropshadow(color=#092e59, offx=1, offy=1); border-color: #1e3a57 !important; background: #3c72ab; background: -moz-linear-gradient(top, #3c72ab 0%, #23548c 100%); background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#3c72ab), color-stop(100%,#23548c)); filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3c72ab', endColorstr='#23548c',GradientType=0 ); } 
+.jig-button-blue:active { color: #fff; background: #23548c; background: -moz-linear-gradient(top, #23548c 0%, #3c72ab 100%); background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#23548c), color-stop(100%,#3c72ab)); filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#23548c', endColorstr='#3c72ab',GradientType=0 ); }
+.jig-button-blue[disabled], .jig-button-blue[disabled]:active { color: #dee7ee; border-color: #959ea5 !important; background: #a6b8c6; background: -moz-linear-gradient(top, #a6b8c6 0%, #99abb9 100%); background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#a6b8c6), color-stop(100%,#99abb9)); filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6b8c6', endColorstr='#99abb9',GradientType=0 ); }
