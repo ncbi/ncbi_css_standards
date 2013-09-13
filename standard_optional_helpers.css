@@ -22,11 +22,14 @@
 
 /*left-leaning blocks*/
 .labeled-list{}
-.labeled-list dt{float:left;margin-right:.8em}
-.labeled-list dd{vertical-align:top;display:table-cell;*display:inline-block}
+.labeled-list dt,.labeled-list dd{display:inline;margin:0}
+.labeled-list dd{margin-left:1.5em}
+.labeled-list dd:after{content:'\A';white-space:pre}
 
-/*pages*/
-.no_max_width{max-width:none}
+/* Temporary class for BK-8210, reverting back to old .labeled-list rule until further refinement*/
+.temp-labeled-list{}
+.temp-labeled-list dt{float:left;margin-right:.8em}
+.temp-labeled-list dd{vertical-align:top;display:table-cell;*display:inline-block}
 
 /*labels in headings*/
 .label{margin-right:1em;}
