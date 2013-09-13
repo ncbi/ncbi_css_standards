@@ -54,4 +54,4 @@
 .default_table tfoot{border:none}
 .default_table thead{border:none}
 .default_table th{background-color:inherit}
-.default_table th,td{border:none}
+.default_table th,.default_table td{border:none}
