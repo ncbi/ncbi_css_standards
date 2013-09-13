@@ -25,3 +25,9 @@ table[rules='rows'] thead+tfoot,table[rules='rows'] thead+tbody,table[rules='row
 table[rules='all'] tr:first-of-type td,table[rules='all'] tr:first-of-type th{border-top:0}
 table[rules='all'] tr:last-of-type td,table[rules='all'] tr:last-of-type th{border-bottom:0}
 table[rules='all'] thead+tfoot,table[rules='all'] thead+tbody,table[rules='all'] tbody+tbody,table[rules='all'] tbody+tfoot{border-top:1px solid #888}
+
+/*allows th to be aligned -- override for standards_base_css*/
+th[align='left'] {text-align:left;}
+th[align='right'] {text-align:right;}
+th[align='justify'] {text-align:justify;}
+/*center is omitted because it is default for standards*/
