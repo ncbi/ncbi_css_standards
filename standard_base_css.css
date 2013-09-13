@@ -1,47 +1,43 @@
 /* typography */
-body{font:62.5%/1.3846 arial,helvetica,clean,sans-serif;background-color:#ccc}
+body{font:62.5%/1.3846 arial,helvetica,clean,sans-serif;background-color:#ccc;margin:0}
 .grid{font-size: 1.3em}
 
-/* re-reset styles when applicable*/
-h1,h2,h3,h4,h5,strong,th,b{font-weight:bold;}
-em,i{font-style:italic;}
+/*general*/
+img{border:0}
 abbr,acronym{cursor:help;border-bottom:1px dotted #000;}
-p,table,pre,fieldset,dl{margin: .6923em 0;}
-ul,ol{margin:.6923em 1em;}
 blockquote{margin:1.3846em 1em;}
-pre,code,kbd,samp,tt {font-family:monospace;font-size:1.2296em;*font-size:1em;} /* need research to figure out both FF and IE, especially the large-sized IE8 font-sizes */
-ol,ul{margin-left:2em}
-ul ul,ol ol,ol ul,ul ol{margin:0 0 0 2em}
-ol{list-style:decimal outside}
-ul{list-style:disc outside}
-ul ul{list-style:circle outside}
-ul ul ul{list-style:square outside}
+p,table,pre,fieldset,dl{margin: 0.6923em 0;}
+ol,ul{margin: 0.6923em 1em 0.6923em inherit}
 dl dd{margin-left:1em;}
-th,td{padding:.2em;border:1px solid #ddd}
+table{border-collapse:collapse;margin:1.3846em 0;}
+thead{border-bottom:1px solid #eee;}
+tfoot{border-top:1px solid #eee;}
 th{text-align:center;background-color:#f0f0f0;}
-thead{border-bottom:1px solid #eee}
-tfoot{border-top:1px solid #eee}
-table{border-collapse:collapse;margin:1.3846em 0}
-caption{margin-bottom:.5em;text-align:center}
+th,td{padding:0.2em;border:1px solid #ddd;}
+caption{margin-bottom:.5em;text-align:center;}
+fieldset {border: 0;}
 
-/*todo: inputs */
-button{cursor:pointer}
+button{cursor:pointer;}
+input,button,textarea{margin:2px;}
+input[type="checkbox"] {margin: 3px 3px 3px 4px;}
+textarea {font-family: monospace; font-size: 1.2296em; *font-size:1em; vertical-align:baseline;}
 
 /* header typography */
 /* all should be used in the context of 13px font-size, try to add to multiple of 18px for consistent vertical rhythm */
-h1{font-size: 1.3846em; line-height:1.5; margin:1em 0 .5em; } /* font-size of 18px, line-height of 27px */
-h2{font-size: 1.2307em; line-height:1.125; margin:1.125em 0 .5625em;} /* font-size of 16px, line-height of 18px */
-h3{font-size: 1.0769em; line-height:1.2857; margin:1.2856em 0 .6428em; } /* font-size of 14px, line-height of 18px */
+h1,.h1{font-size: 1.3846em; line-height:1.5; margin:1em 0 .5em; } /* font-size of 18px, line-height of 27px */
+h2,.h2{font-size: 1.2307em; line-height:1.125; margin:1.125em 0 .5625em;} /* font-size of 16px, line-height of 18px */
+h3,.h3{font-size: 1.0769em; line-height:1.2857; margin:1.2856em 0 .6428em; } /* font-size of 14px, line-height of 18px */
 h4,h5,h6,h3.inline{font-size: 1em; margin:1.3846em 0 .6923em; } /* line-height of 18px */
-h5{font-style:italic;font-weight:normal;}
+h5,.h5{font-style:italic;font-weight:normal;}
+h6, .h6 {font-weight: normal;}
 
-h4{color:#59331f;}
-h3{color:#724128;}
-h2{color:#985735;}
-h1{color:#000;}
+h4,.h4{color:#59331f;}
+h3,.h3{color:#724128;}
+h2,.h2{color:#985735;}
+h1,.h1{color:#000;}
 
 /*InlineHeaders*/
-h3.inline,h4.inline,h5.inline,h6.inline{display:inline;float:left;margin:0;padding-right:.3em}
+h3.inline,h4.inline,h5.inline,h6.inline{display:inline;float:left;margin:0 0 -0.125em;padding-right:.3em}
 
 /* typography helpers */
 /* use in context of 13px font-size */
