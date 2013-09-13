@@ -32,12 +32,16 @@
 
 .rprt .rsltimg { float: left; }
 
+.rprt .rsltimg_right { float: right; margin-right: 0; margin-left: 1em;}
+
 .rprt .rsltimg img {
 	width: 100px;
 	border: #666 solid 1px;
 	padding: 1px; }
 
-.rprt .rsltcont { padding-left: 120px; }
+.rprt .rsltimg + .rsltcont { padding-left: 120px; }
+
+.rprt .rsltimg_right + .rsltcont { padding-left: 0; }
 
 .rprt .title {
 	font-size: 1.108em;
@@ -107,8 +111,6 @@
 	margin-right: 15px;
 	color: #6666AA;
 	white-space: nowrap; }
-
-.rprt .aux .links a:visited { color: #D2692B; }
 
 .rprt .aux .links .in_clip {
 	margin-right: .5em;
