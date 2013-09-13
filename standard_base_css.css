@@ -52,10 +52,6 @@ h3.inline,h4.inline,h5.inline,h6.inline{display:inline;float:left;margin:0 0 -0.
 .content a:hover,.content a:active{color:#985735}
 .content a:visited{color:#642a8f}
 
-/* need callout-y pullquote-y rules and rules for images and captions, etc as well */
-
-/*general*/
-img{border:0}
 /*.no_bullets{list-style-type:none}*/
 .inline_list,.inline_list_right{list-style-type:none;margin:0;padding:0}
 .inline_list li{display:inline;margin-right:.3em}     /* needs to be a standard distance here and the next. */
@@ -70,13 +66,13 @@ img{border:0}
 .hidden{display:none}
 .nowrap{white-space:nowrap}
 .noborder{border:0}
+.no_max_width{max-width:none}
 .inline_block{display:-moz-inline-box;display:inline-block;*display:inline;zoom:1;}
 .clearfix:before,.clearfix:after{content:"";display:table}.clearfix:after{clear:both}.clearfix{zoom:1}
 
-.small,sup,sub{font-size:.8461em;} /*11px font-size */
+.small,sup,sub{font-size:.8461em; line-height: 1.6363em;} /*11px font-size */
 .small sup,.small sub{font-size:1em}
-.small{line-height:1.6363em}
-sup,sub{position:relative;vertical-align:baseline}
+sup,sub{position:relative;vertical-align:baseline;}
 sup{top:-.5em}
 sub{top:.25em}
 
