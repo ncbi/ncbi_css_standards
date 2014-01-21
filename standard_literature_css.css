@@ -1,13 +1,15 @@
-.grid .lit-style{font: 1.1538em/1.4666 Georgia, 'Times New Roman', serif} 
+/*16px/22px, 16/22 different ratio for Times New Roman with smaller x-height*/
+.grid .lit-style{font: 1.2307em/1.375 'Times New Roman', serif}
 .grid .lit-style h1,.grid .lit-style h2,.grid .lit-style h3,.grid .lit-style h4,.grid .lit-style h5,.grid .lit-style h6{font-family:arial,helvetica,clean,sans-serif}
-.grid .lit-style h1{font-size:1.2em}
-.grid .lit-style h2{font-size:1.0666em}
-.grid .lit-style h3{font-size:.9333em}
-.grid .lit-style h4,.grid .lit-style h5,.grid .lit-style h6{font-size:.86666em !important}
-.grid .lit-style h3.inline{line-height:1.5714}
-.grid .lit-style h4.inline,.grid .lit-style h5.inline,.grid .lit-style h6.inline{line-height:1.6923}
-.grid .lit-style .fm-sec{font:.8666em/1.3846 arial,helvetica,clean,sans-serif;}
-.grid .lit-style .fm-sec h1{font-size:1.3846em}
-.grid .lit-style .fm-sec h2{font-size:1.2307em}
-.grid .lit-style .fm-sec h3{font-size:1.0769em}
+.grid .lit-style h1{font-size:1.125em}/*18px*/
+.grid .lit-style h2{font-size:1em}/*16px*/
+.grid .lit-style h3{font-size:.875em}/*14px*/
+.grid .lit-style h4,.grid .lit-style h5,.grid .lit-style h6{font-size:.8125em !important}/*13px*/
+.grid .lit-style h3.inline{line-height:1.4731}
+.grid .lit-style h4.inline,.grid .lit-style h5.inline,.grid .lit-style h6.inline{line-height:1.5865}
+/*set fm-sec context to 13px/18px*/
+.grid .lit-style .fm-sec{font:.8125em/1.3846 arial,helvetica,clean,sans-serif}
+.grid .lit-style .fm-sec h1{font-size:1.3846em}/*18px*/
+.grid .lit-style .fm-sec h2{font-size:1.2307em}/*16px*/
+.grid .lit-style .fm-sec h3{font-size:1.0769em}/*14px*/
 .grid .lit-style .fm-sec h4{font-size:1em}
