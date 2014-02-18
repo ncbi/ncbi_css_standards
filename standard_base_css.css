@@ -66,7 +66,7 @@ h3.inline,h4.inline,h5.inline,h6.inline{display:inline;float:left;margin:0 0 -0.
 .hidden{display:none}
 .nowrap{white-space:nowrap}
 .noborder{border:0}
-.no_max_width{max-width:none}
+.no_max_width{max-width:none;overflow:auto}
 .inline_block{display:-moz-inline-box;display:inline-block;*display:inline;zoom:1;}
 .clearfix:before,.clearfix:after{content:"";display:table}.clearfix:after{clear:both}.clearfix{zoom:1}
 
