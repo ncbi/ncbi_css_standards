@@ -31,3 +31,8 @@ th[align='left'] {text-align:left;}
 th[align='right'] {text-align:right;}
 th[align='justify'] {text-align:justify;}
 /*center is omitted because it is default for standards*/
+
+/* vertical alignment override */
+th[valign='top'],td[valign='top'] {vertical-align:top;}
+th[valign='middle'],td[valign='middle'] {vertical-align:middle;}
+th[valign='bottom'],td[valign='bottom'] {vertical-align:bottom;}
