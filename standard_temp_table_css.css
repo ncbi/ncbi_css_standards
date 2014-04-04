@@ -27,9 +27,9 @@ table[rules='all'] tr:last-of-type td,table[rules='all'] tr:last-of-type th{bord
 table[rules='all'] thead+tfoot,table[rules='all'] thead+tbody,table[rules='all'] tbody+tbody,table[rules='all'] tbody+tfoot{border-top:1px solid #888}
 
 /*allows th to be aligned -- override for standards_base_css*/
-th[align='left'] {text-align:left;}
-th[align='right'] {text-align:right;}
-th[align='justify'] {text-align:justify;}
+th[align='left'], td[align='left'] {text-align:left;}
+th[align='right'], td[align='right'] {text-align:right;}
+th[align='justify'], td[align='justify'] {text-align:justify;}
 /*center is omitted because it is default for standards*/
 
 /* vertical alignment override */
