@@ -51,8 +51,8 @@ h3.inline{margin-right:1em}
 #HistoryView{width:100%}
 
 .line_ico{width:14px;height:15px;text-indent:-9999em;display:inline-block;margin:0 2px 0 2px;padding:3px 2px;position:relative;top:1px}
-.add_line{background:transparent url(portal:/img/add_rem) no-repeat 2px 50%}
-.rem_line{background:transparent url(portal:/img/add_rem) no-repeat -16px 50%}
+.add_line{background:transparent url(img/add_rem.png) no-repeat 2px 50%}
+.rem_line{background:transparent url(img/add_rem.png) no-repeat -16px 50%}
 .show_index{margin-left:5px}
 .extra_space{margin-right:24px}
 .hint{color:#666}

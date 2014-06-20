@@ -1,0 +1,14 @@
+.tgt_light{background:transparent url(img/dropdown.png) no-repeat 100% -1%;padding-right:17px;margin-right: 3px}
+.tgt_light:active{background:transparent url(img/dropdown.png) no-repeat 100% 12%}
+.tgt_dark{background:transparent url(img/dropdown.png) no-repeat 100% 43.5%;padding-right:17px;margin-right:3px}
+.tgt_dark:active{background:transparent url(img/dropdown.png) no-repeat 100% 25%}
+.tgt_light_up{background:transparent url(img/dropdown.png) no-repeat 100% 56%;padding-right:17px;margin-right:3px}
+.tgt_light_up:active{background:transparent url(img/dropdown.png) no-repeat 100% 69%}
+.tgt_dark_up{background:transparent url(img/dropdown.png) no-repeat 100% 100%;padding-right:17px;margin-right:3px}
+.tgt_dark_up:active{background:transparent url(img/dropdown.png) no-repeat 100% 83%}
+.tabPopper{top:0;left:0;display:none;background-color:#fff;padding:.2em;margin-top:3px;*padding-bottom:1em;box-shadow:.4em .4em .5em #999;-webkit-box-shadow:.4em .4em .5em #999;-moz-box-shadow:.4em .4em .5em #999;border:1px solid #ccc;/* IE hack (6, 7, 8) */border-bottom:1px solid #666\0;border-right:1px solid #666\0;}
+.tabPopperCover{position:absolute;top:0px;left:0px;height:1px;background-color:#FFA600;overflow:hidden}
+.tabPopper fieldset{border:0;padding:0;margin:4px 10px}
+.tabPopper fieldset ul,.tabPopper fieldset dl{border-top:1px solid #ddd;padding-top:3px}
+.tabPopper fieldset dl{margin:0 0 6px 0}
+.tabPopper fieldset input{position:relative;top:1px}

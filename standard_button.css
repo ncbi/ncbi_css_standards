@@ -8,7 +8,7 @@ a.jig-button { padding: .25em 1.6em; }
 .jig-button[disabled] { text-shadow: 0 0 0 !important; filter: dropshadow(color=#fff, offx=0, offy=0) !important; cursor: default; } 
 
 /* Button image */
-.jig-button-image { overflow: visible; padding: .2em 1em .2em .75em; *padding-top: .4em; width: auto;}  a.jig-button-image { padding: .125em 1em .125em .75em; display: inline-block; }  a.jig-button-image .jig-button-sprite { margin-top:2px !important; }  .jig-button-sprite { background-image: url("portal:/img/ui_button_sprites"); background-color: transparent; background-repeat: no-repeat; display: inline-block; float: none; padding: 0; margin: 0 2px -2px 0 !important; *margin: 0px 5px -2px -1px !important; }
+.jig-button-image { overflow: visible; padding: .2em 1em .2em .75em; *padding-top: .4em; width: auto;}  a.jig-button-image { padding: .125em 1em .125em .75em; display: inline-block; }  a.jig-button-image .jig-button-sprite { margin-top:2px !important; }  .jig-button-sprite { background-image: url(img/ui_button_sprites.png); background-color: transparent; background-repeat: no-repeat; display: inline-block; float: none; padding: 0; margin: 0 2px -2px 0 !important; *margin: 0px 5px -2px -1px !important; }
 .jig-button-pause { height: 15px; width: 15px; background-position: -0px -0px; }
 .jig-button-delete { height: 15px; width: 15px; background-position: -15px -0px; }
 .jig-button-tick { height: 15px; width: 15px; background-position: -30px -0px; }
