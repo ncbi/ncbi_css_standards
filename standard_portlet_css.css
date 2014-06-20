@@ -28,14 +28,14 @@
 .portlet_content .image .img_link { font-size:1em; float: left; }
  
 
-.portlet_shutter { background: transparent url(portal:/img/shutter_icon_gif) no-repeat scroll left top; display: block; float: right; width: 15px; height: 15px; position: absolute; top: -.2em; margin-left: .6em; right: 0; }
+.portlet_shutter { background: transparent url(img/shutter_icon_gif.gif) no-repeat scroll left top; display: block; float: right; width: 15px; height: 15px; position: absolute; top: -.2em; margin-left: .6em; right: 0; }
 .shutter_closed { background-position: left bottom; }
 .portlet .related li { font-size: 1.2em; border-bottom: 0; }
 .portlet .right { text-align: right; }
 
 .ra_qry, .ra_rcd { padding-left: 2em; }
-.ra_qry { background: transparent url(portal:/img/qry_gif) no-repeat scroll 0 1px; }
-.ra_rcd { background: transparent url(portal:/img/rcd_gif) no-repeat scroll 0 1px; }
+.ra_qry { background: transparent url(img/qry_gif.gif) no-repeat scroll 0 1px; }
+.ra_rcd { background: transparent url(img/rcd_gif.gif) no-repeat scroll 0 1px; }
 
 .sensor{font-size: .8333em;border:1px solid #9ab6cd;background-color:#f2f5f8;padding:0 1em 1em;margin:1em 0}
 .sensor h3,.sensor h4,.sensor h5,.sensor h6{font-size: 1.4em;margin:.6923em 0}

@@ -15,7 +15,7 @@
 .sysmessages .ncbi-alerts .alert-content h2 + p { display: inline; }
 
 .sysmessages .ncbi-alerts .alert-content .icon{ 
-    background-image: url(portal:/img/standard_message_icons); 
+    background-image: url(img/standard_message_icons.png); 
     background-position: 0 -16px;
     background-repeat: no-repeat; 
     display: inline-block; 

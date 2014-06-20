@@ -1,5 +1,5 @@
 /* header css */
-.header { height: 9em; position: relative; background: #e5e5e5 url(portal:/img/header_gradient) repeat-x scroll left bottom;}
+.header { height: 9em; position: relative; background: #e5e5e5 url(img/header_gradient.gif) repeat-x scroll left bottom;}
 .header a {text-decoration: none;}
 .header a:hover{text-decoration: underline;}
 

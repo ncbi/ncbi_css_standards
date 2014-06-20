@@ -33,7 +33,7 @@ ul.messages li {
 }
 
 ul.messages li .icon, ul.messages li.icon{ 
-    background: url(portal:/img/MessageSprites) no-repeat; 
+    background: url(img/standard_message_icons.png) no-repeat; 
     display: block; 
     margin-right: 4px;
     padding-left: 16px;
@@ -75,7 +75,7 @@ ul.messages li.hi_warn {
 
 /* Message_icon - will refine a bit more*/
 .success, .error, .warn, .info, .suggest, .hi_warn {
-    background-image: url(portal:/img/MessageSprites);
+    background-image: url(img/standard_message_icons.png);
     padding-left: 17px;
     background-repeat: no-repeat;
     background-color: transparent;

@@ -1,6 +1,6 @@
 
 .success, .error, .warn, .info, .suggest, .hi_warn {
-    background-image: url(portal:/img/MessageSprites);
+    background-image: url(img/standard_message_icons.png);
     padding-left: 1.2em;
     background-repeat: no-repeat;
     background-color: transparent;

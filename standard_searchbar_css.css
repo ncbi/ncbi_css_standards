@@ -1,4 +1,4 @@
-.header{background:#d5d5d5 url(portal:/img/header_gradient) repeat-x scroll left bottom; position: relative;margin-bottom: 1.231em;z-index:20 }
+.header{background:#d5d5d5 url(img/header_gradient.gif) repeat-x scroll left bottom; position: relative;margin-bottom: 1.231em;z-index:20 }
 .header a{text-decoration:none}
 .header a:hover{text-decoration:underline}
 
