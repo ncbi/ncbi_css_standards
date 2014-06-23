@@ -1,0 +1,26 @@
+{
+  "name": "ncbi-standards",
+  "version": "3.0.0",
+  "authors": [
+    "Eddie Welker <eddie.welker@gmail.com>"
+  ],
+  "description": "NCBI CSS Standards for visual design",
+  "main": "standard_base.css",
+  "keywords": [
+    "NCBI",
+    "standards",
+    "css",
+    "PubMed"
+  ],
+  "license": "Public Domain",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "normalize-css": "~3.0.1"
+  }
+}
