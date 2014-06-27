@@ -18,7 +18,8 @@
     "node_modules",
     "bower_components",
     "test",
-    "tests"
+    "tests",
+    "*.html"
   ],
   "dependencies": {
     "normalize-css": "~3.0.1"
