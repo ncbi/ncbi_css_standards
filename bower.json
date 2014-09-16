@@ -2,7 +2,7 @@
   "name": "ncbi-standards",
   "version": "3.0.0",
   "authors": [
-    "Eddie Welker <eddie.welker@gmail.com>"
+    "Eddie Welker <welkere@ncbi.nlm.nih.gov>"
   ],
   "description": "NCBI CSS Standards for visual design",
   "main": "standard_base.css",
