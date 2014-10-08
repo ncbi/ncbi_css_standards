@@ -37,7 +37,8 @@
 .ra_qry { background: transparent url(img/qry_gif.gif) no-repeat scroll 0 1px; }
 .ra_rcd { background: transparent url(img/rcd_gif.gif) no-repeat scroll 0 1px; }
 
-.sensor{font-size: .8333em;border:1px solid #9ab6cd;background-color:#f2f5f8;padding:0 1em 1em;margin:1em 0}
+.sensor{border:1px solid #97B0C8;background-color:#FEFEFF;padding:0;margin:1em 0}
+.sensor_inner{border:3px solid #D7E2EC;background-color:#FEFEFF;padding:0 1em 1em;margin:0}
 .sensor h3,.sensor h4,.sensor h5,.sensor h6{font-size: 1.4em;margin:.6923em 0}
 .sensor .sensor_content{margin-bottom:1.1em}
 .sensor p{font-size:1.2em;margin:.5em 0 0}
