@@ -19,7 +19,8 @@
     "bower_components",
     "test",
     "tests",
-    "*.html"
+    "*.html",
+    "*.shtml"
   ],
   "dependencies": {
     "normalize-css": "3.0.2"

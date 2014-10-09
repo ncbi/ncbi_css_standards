@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Header and footer test</title>
+
+    <!-- provides uniform browser canvas -->
+    <link rel="stylesheet" type="text/css" href="bower_components/normalize-css/normalize.css" />
+
+    <!-- provides the default styles/colors/etc. for headings, etc. -->
+    <link rel="stylesheet" type="text/css" href="bower_components/ncbi-standards/standard_base.css" />
+
+    <!-- provides the grid for the footer, etc. -->
+    <link rel="stylesheet" type="text/css" href="../new_grid.css" />
+
+    <!-- provides things like no unordered list bullets, black text (?) links, etc. -->
+    <link rel="stylesheet" type="text/css" href="../app.css" />
+
+    <!-- provides icon fonts -->
+    <link rel="stylesheet" type="text/css" href="../ncbifont/styles.css" />
+
+    <link rel="stylesheet" type="text/css" href="header.css" />
+    <link rel="stylesheet" type="text/css" href="footer.css" />
+
+    <!-- provides all of the clear related stuff -->
+    <link rel="stylesheet" type="text/css" href="clear.css" />
+    <script type="text/javascript" src="clear.js"></script>
+
+</head>
+<body>
+    <div class="grid">
+        <!--#include file="header.shtml" -->
+        <h1>Header and footer test</h1>
+        <!--#include file="footer.shtml" -->
+    </div>
+</body>
+</html>
