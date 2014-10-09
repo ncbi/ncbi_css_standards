@@ -1,4 +1,4 @@
-#page_footer{font-size:13px}
+#page_footer{font-size:13px;clear:both}
 
 #page_footer .foot_wrap {overflow: auto;}
 #page_footer div.thick_border {border-top: 2px solid #D5D5D5;}
