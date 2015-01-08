@@ -1,4 +1,7 @@
-#page_footer{font-size:13px;clear:both}
+#page_footer{font-size:13px;
+             padding: 0 1em;
+             border-top: 2px solid #D5D5D5;
+             clear:both}
 
 #page_footer .foot_wrap {overflow: auto;}
 #page_footer div.thick_border {border-top: 2px solid #D5D5D5;}
@@ -23,6 +26,7 @@
 #page_footer .social_media li {float: left;
                                width: 10%;
                                padding: .5em 0 1em;}
+#page_footer .help_desk {padding: 2.5em 10em 0;}
 
 /* ncbi info */
 #page_footer .about_list {margin-top: 1em;
