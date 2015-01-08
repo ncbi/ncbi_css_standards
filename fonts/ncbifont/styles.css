@@ -38,6 +38,38 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+
+/* welkere: added back 01/08 for compatibility */
+/* Colors */
+
+.icon-calendar-icon {float: right;
+                     font-size: 1.25em;}
+.social-icon, .action-button-icon, .icon-calendar-icon, .footer-icon {color: gray;}
+span.icon-user-icon, span.icon-speech-bubble-icon {color: black;
+                                                   position: relative;
+                                                   left: 20px;
+                                                   top: 20px;}
+
+/* Fallback Text for Screen Readers */
+
+.icon-fallback-text {position: absolute !important;
+           clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+           clip: rect(1px, 1px, 1px, 1px); }
+
+/* Sizing */
+
+.icon-2x{font-size:2em;}
+.icon-3x{font-size:3em;}
+.icon-4x{font-size:4em;}
+.icon-5x{font-size:5em;}
+.icon-6x{font-size:6em;}
+.icon-7x{font-size:7em;}
+.icon-8x{font-size:8em;}
+.icon-10x{font-size:10em;}
+
+/* end welkere modification */
+
+
 .icon-analyze:before {
   content: "a";
 }
