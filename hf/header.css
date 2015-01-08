@@ -28,7 +28,7 @@ box-shadow: 3px 3px 3px rgba(0,0,0,.3);
 }
 
 /* blue nav bar */
-#page_header .nih a, #page_header .feedback a {color: white; background-color: #005295;}
+#page_header .nih a{color: white; background-color: #005295;}
 #page_header .blue_nav_bar {background-color: #336699;}
 #page_header .norm_height {height: 47px;}
 #page_header .ncbi {padding: 1.15em 1em;}
@@ -83,20 +83,5 @@ box-shadow: 3px 3px 3px rgba(0,0,0,.3);
 
 /* media query for screen sizes smaller than 1008px */
 @media only screen and (max-width: 1007px) {
-#page_header select {width: 15%;}}
-
-
-/* sticky feedback button */
-#page_header .feedback {position: fixed;
-                        top: 23em;
-                        left: 0;
-                        transform: rotate(-90deg);
-                        -webkit-transform: rotate(-90deg);
-                        -moz-transform: rotate(-90deg);
-                        -o-transform: rotate(-90deg);
-                        border: 2px solid #FFFFFF;
-                        overflow: auto;}
-#page_header .feedback a {padding: 1.15em 1em;
-                          display: block;}
-#page_header .feedback a:hover {background-color: #336699;
-                                font-weight: bold;}
+#page_header select {width: 15%;}
+}
