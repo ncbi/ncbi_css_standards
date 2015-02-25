@@ -26,9 +26,6 @@
 }
 
 
-<!--#include file="ncbi_custom_font_styles.css" -->
-
-
 .icon-analyze:before {
   content: "a";
 }
