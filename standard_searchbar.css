@@ -4,7 +4,7 @@
 
 .search{margin:0 0 0 13.539em; padding:1.2em 0 .7em}
 .search_form{*zoom:1}
-.search_form select,.search_form .jig-ncbiclearbutton-wrap,.search_form button{margin-right:.2em;font-family:arial,helvetica,sans-serif;}
+.search_form select,.search_form .ui-ncbiclearbutton-wrap,.search_form button{margin-right:.2em;font-family:arial,helvetica,sans-serif;}
 .search_form select{font-size: 1.077em; width:8.5em;margin-right:.3em;*vertical-align: middle; position: relative; bottom: 1px;}
 .search_form select optgroup {font-style: normal; color: #555; padding-left: 0.2em;} /*FF is the only one to recognize optgroup and option padding, which is nice because it's the only one that screws it up.*/
 .search_form select optgroup option {color: #000}
@@ -29,9 +29,9 @@
 
 .search_form input:focus{-moz-box-shadow:0 0 .3em rgba(211,186,44,.8)}
 
-.search_form .jig-ncbiclearbutton-wrap { width: 64%; *display: inline; border:1px solid #999; }
-.search_form .jig-ncbiclearbutton-wrap input { width: 100%; *width: 50%; }
-.search_form .jig-ncbiclearbutton-wrap a.reset { margin-left: 0; top: 50%; margin-top: -7px; }
+.search_form .ui-ncbiclearbutton-wrap { width: 64%; *display: inline; border:1px solid #999; }
+.search_form .ui-ncbiclearbutton-wrap input { width: 100%; *width: 50%; }
+.search_form .ui-ncbiclearbutton-wrap a.reset { margin-left: 0; top: 50%; margin-top: -7px; }
 
 .rss_icon{position:relative;top:3px;margin-right:.3em}
 
