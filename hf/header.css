@@ -39,6 +39,7 @@ box-shadow: 3px 3px 3px rgba(0,0,0,.3);
                                 padding: 0 .5em;}
 #page_header .blue_nav_bar, #page_header .blue_nav_bar a, #page_header .skip_nav a {color: #FFFFFF;}
 #page_header a.header_link {padding: 1.15em 1em;}
+#page_header a.left_padding_loginlink{padding-left:1em}
 
 
 /* category bar */
