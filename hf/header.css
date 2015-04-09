@@ -1,0 +1,22 @@
+.universal_header{font-family:arial, helvetica, sans-serif;font-size:13px;height:2em;background-color:#369}
+ul.resources_list{margin-left:1.3em;float:left}
+/* GWC-273 - more space */
+ul.resources_list>li.ui-ncbimenu-item-first { margin-right: 0.5em; }
+
+.myncbi a{color:#fff}
+#ncbihome{padding:.25em 0 0;padding-right:.8em;margin:0;color:#fff}
+#ncbihome:focus{background:transparent; outline: 1px dotted #fff;}
+
+.myncbi{float:right;position:relative;top:.4em;color:#fff;right:1em;*top: .3em}
+.myncbi a{margin-left:1em}
+#mnu{margin-left:0}
+
+ul.jig-ncbimenu a.topanchor{color:#fff}
+ul.jig-ncbimenu a:hover{text-decoration:none}
+
+.ui-ncbimenu-item{background-color:#fcfcfc;border-bottom:1px dotted #e5e5e5}
+.ui-ncbimenu li.ui-ncbimenu-item-first a.ui-ncbimenu-first-link-has-submenu{padding:.45em 20px .2em 0;*padding-top: .5em}
+
+body ul.ui-ncbimenu-submenu{ border: 1px solid #ddd; border-bottom: 1px solid #aaa; border-right: 1px solid #aaa;
+-webkit-box-shadow: 0.4em 0.4em 0.5em rgba(0,0,0,.3);-moz-box-shadow: 0.4em 0.4em 0.5em rgba(0,0,0,.3);box-shadow: 0.4em 0.4em 0.5em rgba(0,0,0,.3)}
+body .ui-ncbimenu-item-first-active,body ul li a.ui-ncbimenu-item-active{background-color:#4C96DF;color:#fff}
