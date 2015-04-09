@@ -12,17 +12,17 @@
 #footer-contents-right a{float:left;height:41px;overflow:hidden;padding-top:14px;text-indent:10em}
 #footer-contents-right div{display:inline}
 
-#nlm_thumb_logo a{background:transparent url(/coreweb/images/ncbi/footer/footer_imgs.png) no-repeat scroll 0 100%;width:34px;margin-right:14px}
-#nih_thumb_logo a{background:transparent url(/coreweb/images/ncbi/footer/footer_imgs.png) no-repeat scroll -35px 100%;width:40px;margin-right:14px}
-#hhs_thumb_logo a{background:transparent url(/coreweb/images/ncbi/footer/footer_imgs.png) no-repeat scroll -75px 100%;width:39px;margin-right:14px}
-#usagov_thumb_logo a{background:transparent url(/coreweb/images/ncbi/footer/footer_imgs.png) no-repeat scroll -114px 100%;width:89px}
+#nlm_thumb_logo a{background:transparent url(footer_imgs.png) no-repeat scroll 0 100%;width:34px;margin-right:14px}
+#nih_thumb_logo a{background:transparent url(footer_imgs.png) no-repeat scroll -35px 100%;width:40px;margin-right:14px}
+#hhs_thumb_logo a{background:transparent url(footer_imgs.png) no-repeat scroll -75px 100%;width:39px;margin-right:14px}
+#usagov_thumb_logo a{background:transparent url(footer_imgs.png) no-repeat scroll -114px 100%;width:89px}
 
 #footer-contents-left p.address{margin:0px;line-height:18px}
 #footer-contents-left a{font-weight:bold}
 #footer-contents-left span.url a{font-weight:normal}
 #footer-contents-left p.address .adr{display:block}
 
-#footer{background:#e5e5e5 url(/portal/portal3rc.fcgi/3986154/img/3418709) repeat-x scroll left top;clear:both;zoom:1;z-index:1}
+#footer{background:#e5e5e5 url(background_footer.png) repeat-x scroll left top;clear:both;zoom:1;z-index:1}
 #footer,.contact_info{color:#14376c;background-color:#fff;overflow:visible;text-align:center;}
 .foot_list{margin:0;padding:0;width:20%;float:left;text-align:left;margin-top:4.5em;width:19\0%;*width:19%}
 .foot_list li{list-style-type:none;}
