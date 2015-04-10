@@ -1,2 +1,18 @@
 .searchbar_wrap{position:relative;display:inline}
 #clear{position:absolute;right:6px;top:0px}
+.ui-ncbiclearbutton-wrap {
+    background: none repeat scroll 0 0 #fff;
+    border: 1px solid #ccc;
+    display: inline-block;
+    padding: 2px 20px 2px 2px;
+    position: relative;
+}
+.ui-ncbiclearbutton-wrap input {
+    /*background: none repeat scroll 0 0 transparent;*/
+    border: 0 none;
+    margin: 0;
+    outline: medium none;
+    padding: 0;
+    width: auto;
+    z-index: 0;
+}

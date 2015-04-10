@@ -31,7 +31,7 @@
 
 .search_form .ui-ncbiclearbutton-wrap { width: 64%; *display: inline; border:1px solid #999; }
 .search_form .ui-ncbiclearbutton-wrap input { width: 100%; *width: 50%; }
-.search_form .ui-ncbiclearbutton-wrap a.reset { margin-left: 0; top: 50%; margin-top: -7px; }
+.search_form .ui-ncbiclearbutton-wrap a.reset { margin-left: 0; top: 50%; margin-top: 4px; }
 
 .rss_icon{position:relative;top:3px;margin-right:.3em}
 
