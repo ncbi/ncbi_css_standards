@@ -1,4 +1,4 @@
-:(function ($) {
+(function ($) {
     $(function () {
         // add a back_url to a#myncbi's href
         var $myNCBILinks = $('#myncbi_sign_in>a, #myncbi_sign_out>a, #myncbi_register>a');
