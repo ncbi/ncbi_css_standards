@@ -93,7 +93,7 @@ if(typeof jQuery !== 'undefined' && jQuery.ui){
 }
 // Global Alerts - new
 if (typeof(jQuery) != 'undefined') {
-    jQuery.getScript("/core/alerts/alerts.js", function () {
+    jQuery.getScript("//www.ncbi.nlm.nih.gov/core/alerts/alerts.js", function () {
         galert(['div.nav_and_browser', 'div.header', '#universal_header', 'body > *:nth-child(1)'])
     });
 }
