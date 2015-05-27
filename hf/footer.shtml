@@ -128,12 +128,25 @@
             </ul>
 
             <div class="footer_padding">
-            <div class="footer_border">
-                <a href="index.shtml"><h3 role="heading" aria-level="3" class="ncbi_blue">NCBI</h3></a>
+
+            <div class="footer_border h-card">
+
+                <a href="http://www.ncbi.nlm.nih.gov/" class="u-url"><h3 role="heading" aria-level="3" class="ncbi_blue p-org">NCBI</h3></a>
+
                 <address>
-                    <a href="index.shtml">National Center for Biotechnology Information,</a><a href="http://www.nlm.nih.gov/"> U.S. National Library of Medicine</a><br>
-                    8600 Rockville Pike, Bethesda MD, 20894 USA
+
+                <a href="http://www.ncbi.nlm.nih.gov/" class="u-url p-org">National Center for Biotechnology Information,</a><a href="http://www.nlm.nih.gov/"> U.S. National Library of Medicine</a>
+
+                <span class="h-adr">
+                <span class="p-street-address">8600 Rockville Pike</span>,
+                <span class="p-locality">Bethesda</span>
+                <span class="p-region"> MD</span>,
+                <span class="p-postal-code">20894</span>
+                <span class="p-country-name">USA</span>
+                </span>
+
                 </address>
+
             </div>
 
             <div class="inline_list about_list">
