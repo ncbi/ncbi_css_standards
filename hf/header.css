@@ -90,6 +90,12 @@ box-shadow: 3px 3px 3px rgba(0,0,0,.3);
 /* new styles for GWS project */
 header {background-color: #ebebeb;
         box-shadow: 0 3px 3px rgba(0,0,0,.39);
-        height: 8em;
+        height: 4.5em;
         position: relative;
         z-index: 10;}
+.logo {margin: 1em 0 1em 1em;}
+@media only screen and (max-width: 480px) {.logo {width: 25%;}}
+@media only screen and (min-width: 481px) and (max-width: 767px) {.logo {width: 20%;}}
+@media only screen and (min-width: 768px) {.logo {width: 15%;}}
+.signin_icon {width: 50%;
+              margin: 0.5em;}
