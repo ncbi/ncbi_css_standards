@@ -93,9 +93,15 @@ header {background-color: #ebebeb;
         height: 4.5em;
         position: relative;
         z-index: 10;}
-.logo {margin: 1em 0 1em 1em;}
-@media only screen and (max-width: 480px) {.logo {width: 25%;}}
-@media only screen and (min-width: 481px) and (max-width: 767px) {.logo {width: 20%;}}
-@media only screen and (min-width: 768px) {.logo {width: 15%;}}
+
+@media only screen and (max-width: 982px) {.logo {margin: 1.2em 0 1em 1em;}}
+@media only screen and (min-width: 983px) {.logo {margin: 1em 0 1em 1em;}}
+
+@media only screen and (max-width: 600px) {.logo {width: 25%;}}
+@media only screen and (min-width: 601px) and (max-width: 660px) {.logo {width: 20%;}}
+@media only screen and (min-width: 661px) and (max-width: 767px) {.logo {width: 18%;}}
+@media only screen and (min-width: 768px) and (max-width: 1110px) {.logo {width: 15%;}}
+@media only screen and (min-width: 1111px) {.logo {width: 12%;}}
+
 .signin_icon {width: 50%;
               margin: 0.5em;}
