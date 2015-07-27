@@ -80,7 +80,6 @@ box-shadow: 3px 3px 3px rgba(0,0,0,.3);
 #page_header .search_bar {margin: 0 .5em;}
 
 .myncbi2 {  margin:0; padding:0;  }
-.myncbi2 li {display:inline-block; padding-left:10px; padding-right:10px;}
 
 /* media query for screen sizes smaller than 1008px */
 @media only screen and (max-width: 1007px) {
@@ -101,5 +100,5 @@ header {background-color: #ebebeb;
 @media only screen and (min-width: 661px) and (max-width: 850px) {.logo {width: 20%;}}
 @media only screen and (min-width: 851px) {.logo {width: 15%;}}
 
-.signin_icon {width: 50%;
-              margin: 0.5em;}
+.myncbi2 li {display: inline-block;
+             padding: 1.5em 1em 1em 0;}

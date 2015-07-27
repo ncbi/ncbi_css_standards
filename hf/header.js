@@ -21,7 +21,7 @@ if (c) {
             if (uname) {
                 if (typeof uname != 'undefined') {
                     uname.appendChild(document.createTextNode(u[1].replace(plus, ' ')));
-                    myncbi_username.style.display = 'inline';
+                    myncbi_username.style.display = 'inline-block';
 
                     var signin = document.getElementById('myncbi_sign_in');
                     signin.style.display = 'none';
