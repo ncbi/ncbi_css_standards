@@ -59,6 +59,8 @@ box-shadow: 3px 3px 3px rgba(0,0,0,.3);
                      border-radius: 0;
                      border: 2px solid #FFFFFF;
                      box-shadow: 1px 1px 2px #FFFFFF;}
+#page_header input {padding: .5em;
+                    margin: 0;}
 
 
 /* 'Search NCBI' placeholder styles - cannot be combined into a single selector */
@@ -78,6 +80,7 @@ box-shadow: 3px 3px 3px rgba(0,0,0,.3);
                                 padding: 0;
                                 text-indent: -9999em;}
 #page_header .search_bar {margin: 0 .5em;}
+#page_header .search-box {width: 70%;}
 
 .myncbi2 {  margin:0; padding:0;  }
 
