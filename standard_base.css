@@ -84,3 +84,18 @@ sub{top:.25em}
 .icnblk_img_right { float: right; margin-right: 0; margin-left: 1em;}
 .icnblk_cntnt{display:table-cell;vertical-align:top;*zoom:1}
 .icnblk_cntnt h1,.icnblk_cntnt h2,.icnblk_cntnt h3,.icnblk_cntnt h4{margin:0 0 .6923em}
+
+/* icon sizes */
+.icon-large {height:4em; width:4em; display:inline-block;}
+.icon-large-wide {height:4em; width:6em; display:inline-block;}
+.icon-medium {height:2em; width:2em; display:inline-block;}
+.icon-small {height:1.2em; width:1.2em; display:inline-block;}
+
+/* Fallback Text for Screen Readers */
+.icon-fallback-text {position: absolute !important;
+					 clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+				     clip: rect(1px, 1px, 1px, 1px); }
+
+/* black-gray icons */
+.gray-light {opacity:.3;}
+.gray-medium {opacity:.5;}

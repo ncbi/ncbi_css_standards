@@ -17,3 +17,14 @@ hf/.idea/modules.xml
 hf/.idea/scopes/scope_settings.xml
 hf/.idea/vcs.xml
 hf/.idea/workspace.xml
+**/.idea
+**/scope_settings.xml
+**/.name
+**/encodings.sml
+**/misc.xml
+**/modules.xml
+**/ncbifont.iml
+**/vcs.xml
+**/workspace.xml
+**/._.DS_Store
+**/._icons
