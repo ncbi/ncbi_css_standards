@@ -82,12 +82,10 @@ box-shadow: 3px 3px 3px rgba(0,0,0,.3);
 #page_header .search_bar {margin: 0 .5em;}
 #page_header .search-box {width: 70%;}
 
-.myncbi2 {  margin:0; padding:0;  }
+.myncbi2 {margin:0; padding:0;}
+.myncbi2 li {display:inline-block; padding-left:10px; padding-right:10px;}
 
 /* media query for screen sizes smaller than 1008px */
 @media only screen and (max-width: 1007px) {
 #page_header select {width: 15%;}
 }
-
-.myncbi2 li {display: inline-block;
-             padding: 1.5em 1em 1em 0;}
