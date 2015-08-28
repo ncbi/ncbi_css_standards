@@ -89,13 +89,6 @@ box-shadow: 3px 3px 3px rgba(0,0,0,.3);
 #page_header select {width: 15%;}
 }
 
-/* new styles for GWS project */
-header {background-color: #ebebeb;
-        box-shadow: 0 3px 3px rgba(0,0,0,.39);
-        height: 4.5em;
-        position: relative;
-        z-index: 10;}
-
 .logo {margin: 1em 0 1em 1em;}
 
 @media only screen and (max-width: 500px) {.logo {width: 40%;}}
