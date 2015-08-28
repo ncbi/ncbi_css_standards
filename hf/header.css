@@ -89,12 +89,5 @@ box-shadow: 3px 3px 3px rgba(0,0,0,.3);
 #page_header select {width: 15%;}
 }
 
-.logo {margin: 1em 0 1em 1em;}
-
-@media only screen and (max-width: 500px) {.logo {width: 40%;}}
-@media only screen and (min-width: 501px) and (max-width: 660px) {.logo {width: 30%;}}
-@media only screen and (min-width: 661px) and (max-width: 850px) {.logo {width: 20%;}}
-@media only screen and (min-width: 851px) {.logo {width: 15%;}}
-
 .myncbi2 li {display: inline-block;
              padding: 1.5em 1em 1em 0;}
