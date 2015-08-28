@@ -1,8 +1,10 @@
 #page_footer{font-size: 13px;
              padding: 0 1em;
+             border-top: 2px solid #D5D5D5;
              clear: both}
 
 #page_footer .foot_wrap {overflow: auto;}
+#page_footer div.thick_border {border-top: 2px solid #D5D5D5;}
 #page_footer div.two_col {padding: 0 .6em 1em;}
 #page_footer a {text-decoration: none;}
 #page_footer, #page_footer .col {background-color: #EAEAEA;}
