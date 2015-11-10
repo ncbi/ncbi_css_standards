@@ -89,3 +89,19 @@ box-shadow: 3px 3px 3px rgba(0,0,0,.3);
 @media only screen and (max-width: 1007px) {
 #page_header select {width: 15%;}
 }
+
+#page_header .blue_nav_bar {background-color: #336699;float: left;width: 100%;}
+#page_header select {min-width:115px;}
+#page_header .nih {float: left; overflow: hidden; background-color: #005295;}
+@media only screen and (max-width: 980px) {
+    #page_header .med_hidden {display: none;}
+}
+@media only screen and (max-width: 858px) {
+    #page_header .search-box {width: 50%;}
+}
+@media only screen and (max-width: 660px) {
+    #page_header .ncbi {padding:4.5em 1em 1em;}
+    #page_header .nih {width:100%;}
+    #page_header > nav > div.left > img {display:none;}
+    #page_header .search-box {width: 30%;}
+}
