@@ -91,6 +91,7 @@ sub{top:.25em}
 .icon-medium {height:2em; width:2em; display:inline-block;}
 .icon-small {height:1.2em; width:1.2em; display:inline-block;}
 .icon-extra-small {height:1em; width:1em; display:inline-block;}
+.icon-medium, .icon-small {vertical-align: top;}
 
 /* Fallback Text for Screen Readers */
 .icon-fallback-text {position: absolute !important;
