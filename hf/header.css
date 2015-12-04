@@ -73,7 +73,7 @@ box-shadow: 3px 3px 3px rgba(0,0,0,.3);
 #page_header button[name=Search] {background: #985735;
                                   color: #FFFFFF;
                                   border: none;
-                                  padding: 0.5em 0.8em 0.5em 0.5em;
+                                  padding: 0.5em 0.8em;
                                   margin: 0;}
 #page_header .offscreen_noflow {height: 0;
                                 margin: 0;
@@ -88,4 +88,20 @@ box-shadow: 3px 3px 3px rgba(0,0,0,.3);
 /* media query for screen sizes smaller than 1008px */
 @media only screen and (max-width: 1007px) {
 #page_header select {width: 15%;}
+}
+
+#page_header .blue_nav_bar {background-color: #336699;float: left;width: 100%;}
+#page_header select {min-width:115px;}
+#page_header .nih {float: left; overflow: hidden; background-color: #005295;}
+@media only screen and (max-width: 980px) {
+    #page_header .med_hidden {display: none;}
+}
+@media only screen and (max-width: 858px) {
+    #page_header .search-box {width: 50%;}
+}
+@media only screen and (max-width: 660px) {
+    #page_header .ncbi {padding:4.5em 1em 1em;}
+    #page_header .nih {width:100%;}
+    #page_header > nav > div.left > img {display:none;}
+    #page_header .search-box {width: 30%;}
 }
