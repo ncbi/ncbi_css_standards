@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>
+      {% block pagetitle %}{{ NCBI_APP_NAME }} - NCBI{% endblock pagetitle %}
+    </title>
+
+    {% load staticfiles %}
+    {% load compress %}
+
+    {% compress css %}
+      <link href="{% static 'ncbibasetemplate/lib/normalize-css/normalize.css' %}" rel="stylesheet" type="text/css"/>
+      <link href="{% static 'ncbibasetemplate/lib/ncbi-standards/standard_grid.css' %}" rel="stylesheet" type="text/css"/>
+      <link href="{% static 'ncbibasetemplate/lib/ncbi-standards/standard_base.css' %}" rel="stylesheet" type="text/css"/>
+      <link href="{% static 'ncbibasetemplate/lib/ncbi-standards/standard_searchbar.css' %}" rel="stylesheet" type="text/css"/>
+      <link href="{% static 'ncbibasetemplate/lib/ncbi-standards/hf/header.css' %}" rel="stylesheet" type="text/css"/>
+      <link href="{% static 'ncbibasetemplate/lib/ncbi-standards/hf/footer.css' %}" rel="stylesheet" type="text/css"/>
+      <link href="{% static 'ncbibasetemplate/lib/ncbi-standards/hf/clear.css' %}" rel="stylesheet" type="text/css"/>
+      <link href="{% static 'ncbibasetemplate/app.css' %}" rel="stylesheet" type="text/css"/>
+      <link href="{% static 'ncbibasetemplate/content.css' %}" rel="stylesheet" type="text/css"/>
+      <link href="{% static 'ncbibasetemplate/lib/ncbi-standards/fonts/ncbifont/styles.css' %}" rel="stylesheet" type="text/css"/>
+    {% endcompress %}
+
+    {% block extra_head_content %}{% endblock %}
+  </head>
+
+  <body>
+    <div class="grid">
+      <div class="col twelve_col nomargin shadow">
+        {% include "includes/_bluebar.html" only %}
+        {% include "includes/_header.html" %}
+
+        {% block content %}{% endblock %}
+
+        {% include "includes/_footer_dynamic.html" %}
+        {% include "includes/_footer.html" only %}
+
+      </div> <!-- twelve_col -->
+    </div> <!-- grid -->
+
+    <script type="text/javascript" src="http://www.ncbi.nlm.nih.gov/core/jig/1.13.1/js/jig.min.js"></script>
+
+    {% compress css %}
+      <style>
+        .top-nav { display:block; overflow: auto; }
+        .top-nav li a { color:#000;}
+        .search_bar { clear:both; margin-top:1em; }
+        html .ui-ncbimenu > li > a {color:#000;}
+        .top-nav li a:hover {color:#000;background:none;}
+        .top-nav li.popular-res-menu.selected > a {color:#000;background:none;}
+        .top-nav li a.expandDown {}
+        .top-nav .ui-ncbimenu li a.expandDown {background:none;padding-right:0;}
+        .ui-ncbibasicmenu li:last-child, .ui-ncbibasicmenu li:last-child a{border-radius: 0;}
+        .nopadding {padding:0;}
+      </style>
+    {% endcompress %}
+
+    {% compress js %}
+      <script>
+        jQuery(document).ready(function(){
+          jQuery('.arrow-down').click(function(){jQuery('.popular-res-menu .expandDown').trigger('click');})
+          jQuery('.top-nav ul.jig-ncbimenu li:not(.popular-res-menu)').addClass('no-submenu');
+        });
+      </script>
+      <script type="text/javascript" src="{% static 'ncbibasetemplate/lib/ncbi-standards/hf/clear.js' %}"></script>
+      <script type="text/javascript" src="{% static 'ncbibasetemplate/lib/ncbi-standards/hf/header.js' %}"></script>
+    {% endcompress %}
+
+    {% block extra_foot_content %}{% endblock %}
+
+  </body>
+</html>

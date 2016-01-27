@@ -1,0 +1,12 @@
+<div id="NCBIFooter_dynamic">
+    <div class="breadcrumbs">
+        You are here: <span id="breadcrumb_text">
+            <a href="#">NCBI</a>
+        {% block breadcrumbs %}
+            &gt;
+            <a href="{{NCBI_APP_URL}}">{{NCBI_APP_NAME}}</a>
+        {% endblock %}
+        </span>
+    </div>
+    <a id="help-desk-link" class="help_desk" target="_blank" href="/sites/ehelp?&amp;Ncbi_App={{NCBI_APP_NAME}}&amp;Db=&amp;Page={{CURRENT_PAGE_NAME}}&amp;Snapshot=Django_{{NCBI_APP_NAME}}&amp;Time={% now 'Y-m-d\TH:i:s' %}&amp;Host={{CURRENT_HOST|urlencode:''}}&amp;URL={{CURRENT_PAGE_URL|urlencode:''}}">Help Desk</a>
+</div>
