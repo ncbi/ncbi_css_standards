@@ -1,6 +1,6 @@
 {
   "name": "ncbi-standards",
-  "version": "3.9.3",
+  "version": "3.9.4",
   "description": "NCBI CSS Standards for visual design",
   "main": "standard_base.css",
   "scripts": {
