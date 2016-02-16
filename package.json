@@ -1,0 +1,27 @@
+{
+  "name": "ncbi-standards",
+  "version": "4.8.0",
+  "description": "NCBI CSS Standards for visual design",
+  "main": "standard_base.css",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ncbi/ncbi_css_standards.git"
+  },
+  "keywords": [
+    "NCBI",
+    "standards",
+    "css",
+    "PubMed"
+  ],
+  "author": "Eddie Welker <welkere@ncbi.nlm.nih.gov>",
+  "license": "SEE LICENSE IN <LICENSE>",
+  "bugs": {
+    "url": "https://github.com/ncbi/ncbi_css_standards/issues"
+  },
+  "publishConfig": {
+    "registry": "https://artifactory.ncbi.nlm.nih.gov/artifactory/api/npm/npm-virtual"
+  }
+}
