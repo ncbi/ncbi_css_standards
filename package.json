@@ -23,5 +23,8 @@
   },
   "publishConfig": {
     "registry": "https://artifactory.ncbi.nlm.nih.gov/artifactory/api/npm/npm-virtual"
+  },
+  "dependencies": {
+    "normalize.css": "^3.0.3"
   }
 }
