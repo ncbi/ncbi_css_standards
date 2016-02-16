@@ -1,6 +1,6 @@
 {
   "name": "ncbi-standards",
-  "version": "3.9.3",
+  "version": "3.9.4",
   "description": "NCBI CSS Standards for visual design",
   "main": "standard_base.css",
   "scripts": {
@@ -23,5 +23,8 @@
   },
   "publishConfig": {
     "registry": "https://artifactory.ncbi.nlm.nih.gov/artifactory/api/npm/npm-virtual"
+  },
+  "dependencies": {
+    "normalize.css": "^3.0.3"
   }
 }
