@@ -27,4 +27,6 @@ hf/.idea/workspace.xml
 **/vcs.xml
 **/workspace.xml
 **/._.DS_Store
-**/._icons
+**/._iconsnode_modules
+
+node_modules
