@@ -74,6 +74,11 @@ if(c){
                 });
             }); 
         }
+
+        $("meta[name='ncbi_db']").each(function() {
+            var dbname = $(this).attr('content');
+            $("#database option[value="+dbname+"]").attr("selected","selected");
+        });
     });
 })( jQuery );
 
