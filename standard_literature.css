@@ -1,16 +1,16 @@
 /*16px/22px, 16/22 different ratio for Times New Roman with smaller x-height*/
 .grid .lit-style{font: 1.2307em/1.375 'Times New Roman', serif}
 .grid .lit-style h1,.grid .lit-style h2,.grid .lit-style h3,.grid .lit-style h4,.grid .lit-style h5,.grid .lit-style h6{font-family:arial,helvetica,clean,sans-serif}
-.grid .lit-style h1{font-size:1.8em}
-.grid .lit-style h2{font-size:1.25em}
-.grid .lit-style h3{font-size:1em}
-.grid .lit-style h4,.grid .lit-style h5,.grid .lit-style h6{font-size:.9em !important}
-.grid .lit-style h3.inline{line-height:1.4731}
-.grid .lit-style h4.inline,.grid .lit-style h5.inline,.grid .lit-style h6.inline{line-height:1.5865}
+.grid .lit-style h1{font-size:1.25em; line-height:1.35em}    /*20px; line-height of 27px*/
+.grid .lit-style h2{font-size:1.125em; line-height:1.1111em} /*18px; line-height of 20px*/
+.grid .lit-style h3{font-size:1em; line-height:1.25em}       /*16px; line-height of 20px*/
+.grid .lit-style h4,.grid .lit-style h5,.grid .lit-style h6{font-size:.9em !important; line-height:1.3888em} /*14.4px; line-height of 20px*/
+.grid .lit-style h3.inline{line-height:1.2375em}
+.grid .lit-style h4.inline,.grid .lit-style h5.inline,.grid .lit-style h6.inline{line-height:1.5865em}
 /*set fm-sec context to 13px/18px*/
 .grid .lit-style .fm-sec{font:.8125em/1.3846 arial,helvetica,clean,sans-serif}
-.grid .lit-style .fm-sec h1{font-size:1.3846em}/*18px*/
-.grid .lit-style .fm-sec h2{font-size:1.2307em}/*16px*/
-.grid .lit-style .fm-sec h3{font-size:1.0769em}/*14px*/
-.grid .lit-style .fm-sec h4{font-size:1em}
+.grid .lit-style .fm-sec h1{font-size:1.5384em} /*20px; line-height of 27px*/
+.grid .lit-style .fm-sec h2{font-size:1.3846em} /*18px; line-height of 20px */
+.grid .lit-style .fm-sec h3{font-size:1.2307em} /*16px; line-height of 20px */
+.grid .lit-style .fm-sec h4{font-size:1.1076em} /*14.4px; line-height of 20px */
 .grid .lit-style code,.grid .lit-style kbd,.grid .lit-style pre,.grid .lit-style samp{font-size:.8125em}/*13px*/
